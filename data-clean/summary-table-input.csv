@@ -1,0 +1,21 @@
+param,param_table,unit,unit_table
+collected volume,Collected Volume,ml,mL
+conductivity,Conductivity,mS,mS
+dissolved chloride,Dissolved Chloride,Cl- mg/L,mg L^-1^
+dissolved inorganic carbon,Dissolved Inorganic Carbon,C mg/L,mg C L^-1^
+dissolved sulphate,Dissolved Sulfate,SO4 mg/L,mg SO~4~ L^-1^
+do,Dissolved Oxygen,mg/L,mg L^-1^
+free cl,Free Chlorine,mg/L,mg L^-1^
+organic carbon,Total Organic Carbon,C mg/L,mg C L^-1^
+orp,ORP,mv,mV
+orthophosphate (phase 1),Orthophosphate (phase 1),P mg/L,mg P L^-1^
+orthophosphate (phase 2),Orthophosphate (phase 2),P mg/L,mg P L^-1^
+ph,pH,NA,NA
+temp,Temperature,C,C
+total alkalinity,Total Alkalinity,Total as CaCO3 mg/L,mg CaCO~3~ L^-1^
+total aluminum,Total Aluminum,Al ug/L,ug L^-1^
+total iron,Total Iron,Fe ug/L,ug L^-1^
+total lead,Total Lead,Pb ug/L,ug L^-1^
+total manganese,Total Manganese,Mn ug/L,ug L^-1^
+total zinc,Total Zinc,Zn ug/L,ug L^-1^
+turb,Turbidity,NTU,NTU

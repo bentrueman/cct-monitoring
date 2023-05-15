@@ -1,0 +1,91 @@
+date,location,litre,round,value,censored,private_service,public_service,sample
+2021-05-30,A,Litre 1,1_before,1.4,none,Lead,Copper,A.Litre 1
+2022-05-17,A,Litre 1,2_after,0.84,none,Lead,Copper,A.Litre 1
+2021-05-30,A,Litre 2,1_before,2,none,Lead,Copper,A.Litre 2
+2022-05-17,A,Litre 2,2_after,1.2,none,Lead,Copper,A.Litre 2
+2021-05-30,A,Litre 3,1_before,1.5,none,Lead,Copper,A.Litre 3
+2022-05-17,A,Litre 3,2_after,0.88,none,Lead,Copper,A.Litre 3
+2021-05-30,A,Litre 4,1_before,1.7,none,Lead,Copper,A.Litre 4
+2022-05-17,A,Litre 4,2_after,0.94,none,Lead,Copper,A.Litre 4
+2021-05-30,A,Flushed,1_before,0.75,none,Lead,Copper,A.Flushed
+2022-05-17,A,Flushed,2_after,0.5,left,Lead,Copper,A.Flushed
+2021-06-07,B,Litre 1,1_before,0.5,left,Lead,Copper,B.Litre 1
+2022-05-18,B,Litre 1,2_after,0.5,left,Lead,Copper,B.Litre 1
+2021-06-07,B,Litre 2,1_before,0.5,left,Lead,Copper,B.Litre 2
+2022-05-18,B,Litre 2,2_after,0.5,left,Lead,Copper,B.Litre 2
+2021-06-07,B,Litre 3,1_before,0.5,left,Lead,Copper,B.Litre 3
+2022-05-18,B,Litre 3,2_after,0.5,left,Lead,Copper,B.Litre 3
+2021-06-07,B,Litre 4,1_before,0.5,left,Lead,Copper,B.Litre 4
+2022-05-18,B,Litre 4,2_after,0.5,left,Lead,Copper,B.Litre 4
+2021-06-07,B,Flushed,1_before,0.5,left,Lead,Copper,B.Flushed
+2022-05-18,B,Flushed,2_after,0.5,left,Lead,Copper,B.Flushed
+2021-05-25,C,Litre 1,1_before,2.1,none,Lead,Copper,C.Litre 1
+2022-05-17,C,Litre 1,2_after,1.8,none,Lead,Copper,C.Litre 1
+2021-05-25,C,Litre 2,1_before,2,none,Lead,Copper,C.Litre 2
+2022-05-17,C,Litre 2,2_after,2.2,none,Lead,Copper,C.Litre 2
+2021-05-25,C,Litre 3,1_before,2.2,none,Lead,Copper,C.Litre 3
+2022-05-17,C,Litre 3,2_after,2.1,none,Lead,Copper,C.Litre 3
+2021-05-25,C,Litre 4,1_before,3.1,none,Lead,Copper,C.Litre 4
+2022-05-17,C,Litre 4,2_after,1.9,none,Lead,Copper,C.Litre 4
+2021-05-25,C,Flushed,1_before,1.7,none,Lead,Copper,C.Flushed
+2022-05-17,C,Flushed,2_after,1.3,none,Lead,Copper,C.Flushed
+2021-05-26,D,Litre 1,1_before,0.5,left,Lead,Copper,D.Litre 1
+2022-06-07,D,Litre 1,2_after,0.5,left,Lead,Copper,D.Litre 1
+2021-05-26,D,Litre 2,1_before,0.5,left,Lead,Copper,D.Litre 2
+2022-06-07,D,Litre 2,2_after,0.5,left,Lead,Copper,D.Litre 2
+2021-05-26,D,Litre 3,1_before,0.5,left,Lead,Copper,D.Litre 3
+2022-06-07,D,Litre 3,2_after,0.5,left,Lead,Copper,D.Litre 3
+2021-05-26,D,Litre 4,1_before,0.5,left,Lead,Copper,D.Litre 4
+2022-06-07,D,Litre 4,2_after,0.5,left,Lead,Copper,D.Litre 4
+2021-05-26,D,Flushed,1_before,0.5,left,Lead,Copper,D.Flushed
+2022-06-07,D,Flushed,2_after,0.5,left,Lead,Copper,D.Flushed
+2021-05-29,E,Litre 1,1_before,1.6,none,Copper,Copper,E.Litre 1
+2022-05-15,E,Litre 1,2_after,0.82,none,Copper,Copper,E.Litre 1
+2021-05-29,E,Litre 2,1_before,1,none,Copper,Copper,E.Litre 2
+2022-05-15,E,Litre 2,2_after,0.5,none,Copper,Copper,E.Litre 2
+2021-05-29,E,Litre 3,1_before,0.78,none,Copper,Copper,E.Litre 3
+2022-05-15,E,Litre 3,2_after,0.5,left,Copper,Copper,E.Litre 3
+2021-05-29,E,Litre 4,1_before,0.8,none,Copper,Copper,E.Litre 4
+2022-05-15,E,Litre 4,2_after,0.5,left,Copper,Copper,E.Litre 4
+2021-05-29,E,Flushed,1_before,0.5,left,Copper,Copper,E.Flushed
+2022-05-15,E,Flushed,2_after,0.5,left,Copper,Copper,E.Flushed
+2021-06-10,F,Litre 1,1_before,0.5,left,Copper,Copper,F.Litre 1
+2022-05-29,F,Litre 1,2_after,0.5,left,Copper,Copper,F.Litre 1
+2021-06-10,F,Litre 2,1_before,0.5,left,Copper,Copper,F.Litre 2
+2022-05-29,F,Litre 2,2_after,0.5,left,Copper,Copper,F.Litre 2
+2021-06-10,F,Litre 3,1_before,0.5,left,Copper,Copper,F.Litre 3
+2022-05-29,F,Litre 3,2_after,0.5,left,Copper,Copper,F.Litre 3
+2021-06-10,F,Litre 4,1_before,0.5,left,Copper,Copper,F.Litre 4
+2022-05-29,F,Litre 4,2_after,0.72,none,Copper,Copper,F.Litre 4
+2021-06-10,F,Flushed,1_before,0.5,left,Copper,Copper,F.Flushed
+2022-05-29,F,Flushed,2_after,0.5,left,Copper,Copper,F.Flushed
+2021-05-25,G,Litre 1,1_before,0.5,left,Lead,Copper,G.Litre 1
+2022-05-30,G,Litre 1,2_after,0.58,none,Lead,Copper,G.Litre 1
+2021-05-25,G,Litre 2,1_before,0.5,left,Lead,Copper,G.Litre 2
+2022-05-30,G,Litre 2,2_after,0.5,left,Lead,Copper,G.Litre 2
+2021-05-25,G,Litre 3,1_before,0.5,left,Lead,Copper,G.Litre 3
+2022-05-30,G,Litre 3,2_after,0.5,left,Lead,Copper,G.Litre 3
+2021-05-25,G,Litre 4,1_before,0.5,left,Lead,Copper,G.Litre 4
+2022-05-30,G,Litre 4,2_after,0.5,left,Lead,Copper,G.Litre 4
+2021-05-25,G,Flushed,1_before,0.5,left,Lead,Copper,G.Flushed
+2022-05-30,G,Flushed,2_after,0.5,left,Lead,Copper,G.Flushed
+2021-06-01,H,Litre 1,1_before,6.6,none,Lead,Copper,H.Litre 1
+2022-05-15,H,Litre 1,2_after,34,none,Lead,Copper,H.Litre 1
+2021-06-01,H,Litre 2,1_before,7.4,none,Lead,Copper,H.Litre 2
+2022-05-15,H,Litre 2,2_after,4,none,Lead,Copper,H.Litre 2
+2021-06-01,H,Litre 3,1_before,6.1,none,Lead,Copper,H.Litre 3
+2022-05-15,H,Litre 3,2_after,2.6,none,Lead,Copper,H.Litre 3
+2021-06-01,H,Litre 4,1_before,6.3,none,Lead,Copper,H.Litre 4
+2022-05-15,H,Litre 4,2_after,1.6,none,Lead,Copper,H.Litre 4
+2021-06-01,H,Flushed,1_before,1.8,none,Lead,Copper,H.Flushed
+2022-05-15,H,Flushed,2_after,1.2,none,Lead,Copper,H.Flushed
+2021-05-27,I,Litre 1,1_before,0.5,left,Lead,Copper,I.Litre 1
+2022-05-19,I,Litre 1,2_after,0.5,left,Lead,Copper,I.Litre 1
+2021-05-27,I,Litre 2,1_before,0.5,left,Lead,Copper,I.Litre 2
+2022-05-19,I,Litre 2,2_after,0.5,left,Lead,Copper,I.Litre 2
+2021-05-27,I,Litre 3,1_before,0.5,left,Lead,Copper,I.Litre 3
+2022-05-19,I,Litre 3,2_after,2.2,none,Lead,Copper,I.Litre 3
+2021-05-27,I,Litre 4,1_before,0.5,left,Lead,Copper,I.Litre 4
+2022-05-19,I,Litre 4,2_after,0.5,left,Lead,Copper,I.Litre 4
+2021-05-27,I,Flushed,1_before,0.5,left,Lead,Copper,I.Flushed
+2022-05-19,I,Flushed,2_after,0.5,left,Lead,Copper,I.Flushed

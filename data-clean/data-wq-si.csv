@@ -1,0 +1,731 @@
+zone,rack,pipe_number,date,param,value,unit,censored,date_numeric,location,series
+1,1,1,2018-12-17,total aluminum,13,Al ug/L,none,-714,z1.r1,z1.r1.p1
+1,1,1,2019-01-25,total aluminum,21,Al ug/L,none,-675,z1.r1,z1.r1.p1
+1,1,1,2019-02-19,total aluminum,12,Al ug/L,none,-650,z1.r1,z1.r1.p1
+1,1,1,2019-03-12,total aluminum,12,Al ug/L,none,-629,z1.r1,z1.r1.p1
+1,1,1,2019-04-17,total aluminum,11,Al ug/L,none,-593,z1.r1,z1.r1.p1
+1,1,1,2019-05-06,total aluminum,11,Al ug/L,none,-574,z1.r1,z1.r1.p1
+1,1,1,2019-06-19,total aluminum,19,Al ug/L,none,-530,z1.r1,z1.r1.p1
+1,1,1,2019-07-26,total aluminum,16,Al ug/L,none,-493,z1.r1,z1.r1.p1
+1,1,1,2019-08-19,total aluminum,14,Al ug/L,none,-469,z1.r1,z1.r1.p1
+1,1,1,2019-09-17,total aluminum,15,Al ug/L,none,-440,z1.r1,z1.r1.p1
+1,1,1,2019-10-23,total aluminum,11,Al ug/L,none,-404,z1.r1,z1.r1.p1
+1,1,1,2019-11-22,total aluminum,17,Al ug/L,none,-374,z1.r1,z1.r1.p1
+1,1,1,2019-12-18,total aluminum,12,Al ug/L,none,-348,z1.r1,z1.r1.p1
+1,1,1,2020-01-24,total aluminum,10,Al ug/L,none,-311,z1.r1,z1.r1.p1
+1,1,1,2020-02-14,total aluminum,10,Al ug/L,none,-290,z1.r1,z1.r1.p1
+1,1,1,2020-03-20,total aluminum,11,Al ug/L,none,-255,z1.r1,z1.r1.p1
+1,1,1,2020-04-15,total aluminum,11,Al ug/L,none,-229,z1.r1,z1.r1.p1
+1,1,1,2020-05-12,total aluminum,10,Al ug/L,none,-202,z1.r1,z1.r1.p1
+1,1,1,2020-06-16,total aluminum,11,Al ug/L,none,-167,z1.r1,z1.r1.p1
+1,1,1,2020-07-21,total aluminum,12,Al ug/L,none,-132,z1.r1,z1.r1.p1
+1,1,1,2020-08-18,total aluminum,11,Al ug/L,none,-104,z1.r1,z1.r1.p1
+1,1,1,2020-09-14,total aluminum,68,Al ug/L,none,-77,z1.r1,z1.r1.p1
+1,1,1,2020-10-21,total aluminum,13,Al ug/L,none,-40,z1.r1,z1.r1.p1
+1,1,1,2020-11-17,total aluminum,28,Al ug/L,none,-13,z1.r1,z1.r1.p1
+1,1,1,2020-12-14,total aluminum,28,Al ug/L,none,14,z1.r1,z1.r1.p1
+1,1,1,2021-01-12,total aluminum,11,Al ug/L,none,43,z1.r1,z1.r1.p1
+1,1,1,2021-02-17,total aluminum,13,Al ug/L,none,79,z1.r1,z1.r1.p1
+1,1,1,2021-03-10,total aluminum,13,Al ug/L,none,100,z1.r1,z1.r1.p1
+1,1,1,2021-04-22,total aluminum,12,Al ug/L,none,143,z1.r1,z1.r1.p1
+1,1,1,2021-06-21,total aluminum,12,Al ug/L,none,203,z1.r1,z1.r1.p1
+1,1,1,2021-07-13,total aluminum,9.3,Al ug/L,none,225,z1.r1,z1.r1.p1
+1,1,1,2021-08-10,total aluminum,11,Al ug/L,none,253,z1.r1,z1.r1.p1
+1,1,1,2021-09-17,total aluminum,15,Al ug/L,none,291,z1.r1,z1.r1.p1
+1,1,1,2021-10-12,total aluminum,12,Al ug/L,none,316,z1.r1,z1.r1.p1
+1,1,1,2021-11-01,total aluminum,9.9,Al ug/L,none,336,z1.r1,z1.r1.p1
+1,1,1,2021-11-10,total aluminum,9.3,Al ug/L,none,345,z1.r1,z1.r1.p1
+1,1,1,2021-11-19,total aluminum,9.2,Al ug/L,none,354,z1.r1,z1.r1.p1
+1,1,1,2021-11-24,total aluminum,8.9,Al ug/L,none,359,z1.r1,z1.r1.p1
+1,1,1,2021-12-01,total aluminum,10,Al ug/L,none,366,z1.r1,z1.r1.p1
+1,1,1,2022-01-28,total aluminum,15,Al ug/L,none,424,z1.r1,z1.r1.p1
+1,1,1,2022-02-15,total aluminum,11,Al ug/L,none,442,z1.r1,z1.r1.p1
+1,1,1,2022-03-24,total aluminum,11,Al ug/L,none,479,z1.r1,z1.r1.p1
+1,1,1,2022-04-22,total aluminum,12,Al ug/L,none,508,z1.r1,z1.r1.p1
+1,1,1,2022-05-16,total aluminum,15,Al ug/L,none,532,z1.r1,z1.r1.p1
+1,1,1,2022-06-16,total aluminum,13,Al ug/L,none,563,z1.r1,z1.r1.p1
+1,1,1,2022-07-06,total aluminum,14,Al ug/L,none,583,z1.r1,z1.r1.p1
+1,1,1,2022-08-31,total aluminum,16,Al ug/L,none,639,z1.r1,z1.r1.p1
+1,1,1,2022-10-03,total aluminum,10,Al ug/L,none,672,z1.r1,z1.r1.p1
+1,1,1,2022-10-31,total aluminum,12,Al ug/L,none,700,z1.r1,z1.r1.p1
+1,1,1,2022-12-13,total aluminum,43,Al ug/L,none,743,z1.r1,z1.r1.p1
+1,1,2,2018-12-17,total aluminum,12,Al ug/L,none,-714,z1.r1,z1.r1.p2
+1,1,2,2019-01-25,total aluminum,11,Al ug/L,none,-675,z1.r1,z1.r1.p2
+1,1,2,2019-02-19,total aluminum,10,Al ug/L,none,-650,z1.r1,z1.r1.p2
+1,1,2,2019-03-12,total aluminum,9.5,Al ug/L,none,-629,z1.r1,z1.r1.p2
+1,1,2,2019-04-17,total aluminum,11,Al ug/L,none,-593,z1.r1,z1.r1.p2
+1,1,2,2019-05-06,total aluminum,10,Al ug/L,none,-574,z1.r1,z1.r1.p2
+1,1,2,2019-06-19,total aluminum,18,Al ug/L,none,-530,z1.r1,z1.r1.p2
+1,1,2,2019-07-26,total aluminum,15,Al ug/L,none,-493,z1.r1,z1.r1.p2
+1,1,2,2019-08-19,total aluminum,13,Al ug/L,none,-469,z1.r1,z1.r1.p2
+1,1,2,2019-09-17,total aluminum,14,Al ug/L,none,-440,z1.r1,z1.r1.p2
+1,1,2,2019-10-23,total aluminum,10,Al ug/L,none,-404,z1.r1,z1.r1.p2
+1,1,2,2019-11-22,total aluminum,11,Al ug/L,none,-374,z1.r1,z1.r1.p2
+1,1,2,2019-12-18,total aluminum,12,Al ug/L,none,-348,z1.r1,z1.r1.p2
+1,1,2,2020-01-24,total aluminum,12,Al ug/L,none,-311,z1.r1,z1.r1.p2
+1,1,2,2020-02-14,total aluminum,9.1,Al ug/L,none,-290,z1.r1,z1.r1.p2
+1,1,2,2020-03-20,total aluminum,12,Al ug/L,none,-255,z1.r1,z1.r1.p2
+1,1,2,2020-04-15,total aluminum,12,Al ug/L,none,-229,z1.r1,z1.r1.p2
+1,1,2,2020-05-12,total aluminum,10,Al ug/L,none,-202,z1.r1,z1.r1.p2
+1,1,2,2020-06-16,total aluminum,11,Al ug/L,none,-167,z1.r1,z1.r1.p2
+1,1,2,2020-07-21,total aluminum,11,Al ug/L,none,-132,z1.r1,z1.r1.p2
+1,1,2,2020-08-18,total aluminum,11,Al ug/L,none,-104,z1.r1,z1.r1.p2
+1,1,2,2020-09-14,total aluminum,21,Al ug/L,none,-77,z1.r1,z1.r1.p2
+1,1,2,2020-10-21,total aluminum,10,Al ug/L,none,-40,z1.r1,z1.r1.p2
+1,1,2,2020-11-17,total aluminum,18,Al ug/L,none,-13,z1.r1,z1.r1.p2
+1,1,2,2020-12-14,total aluminum,16,Al ug/L,none,14,z1.r1,z1.r1.p2
+1,1,2,2021-01-12,total aluminum,12,Al ug/L,none,43,z1.r1,z1.r1.p2
+1,1,2,2021-02-17,total aluminum,10,Al ug/L,none,79,z1.r1,z1.r1.p2
+1,1,2,2021-03-10,total aluminum,13,Al ug/L,none,100,z1.r1,z1.r1.p2
+1,1,2,2021-04-22,total aluminum,13,Al ug/L,none,143,z1.r1,z1.r1.p2
+1,1,2,2021-06-21,total aluminum,11,Al ug/L,none,203,z1.r1,z1.r1.p2
+1,1,2,2021-07-13,total aluminum,11,Al ug/L,none,225,z1.r1,z1.r1.p2
+1,1,2,2021-08-10,total aluminum,10,Al ug/L,none,253,z1.r1,z1.r1.p2
+1,1,2,2021-09-17,total aluminum,12,Al ug/L,none,291,z1.r1,z1.r1.p2
+1,1,2,2021-10-12,total aluminum,10,Al ug/L,none,316,z1.r1,z1.r1.p2
+1,1,2,2021-11-01,total aluminum,9.2,Al ug/L,none,336,z1.r1,z1.r1.p2
+1,1,2,2021-11-10,total aluminum,11,Al ug/L,none,345,z1.r1,z1.r1.p2
+1,1,2,2021-11-19,total aluminum,8.1,Al ug/L,none,354,z1.r1,z1.r1.p2
+1,1,2,2021-11-24,total aluminum,7.6,Al ug/L,none,359,z1.r1,z1.r1.p2
+1,1,2,2021-12-01,total aluminum,11,Al ug/L,none,366,z1.r1,z1.r1.p2
+1,1,2,2022-01-28,total aluminum,13,Al ug/L,none,424,z1.r1,z1.r1.p2
+1,1,2,2022-02-15,total aluminum,11,Al ug/L,none,442,z1.r1,z1.r1.p2
+1,1,2,2022-03-24,total aluminum,12,Al ug/L,none,479,z1.r1,z1.r1.p2
+1,1,2,2022-04-22,total aluminum,13,Al ug/L,none,508,z1.r1,z1.r1.p2
+1,1,2,2022-05-16,total aluminum,15,Al ug/L,none,532,z1.r1,z1.r1.p2
+1,1,2,2022-06-16,total aluminum,19,Al ug/L,none,563,z1.r1,z1.r1.p2
+1,1,2,2022-07-06,total aluminum,14,Al ug/L,none,583,z1.r1,z1.r1.p2
+1,1,2,2022-08-31,total aluminum,16,Al ug/L,none,639,z1.r1,z1.r1.p2
+1,1,2,2022-10-03,total aluminum,16,Al ug/L,none,672,z1.r1,z1.r1.p2
+1,1,2,2022-10-31,total aluminum,10,Al ug/L,none,700,z1.r1,z1.r1.p2
+1,1,2,2022-12-13,total aluminum,9.8,Al ug/L,none,743,z1.r1,z1.r1.p2
+1,1,3,2018-12-17,total aluminum,12,Al ug/L,none,-714,z1.r1,z1.r1.p3
+1,1,3,2019-01-25,total aluminum,14,Al ug/L,none,-675,z1.r1,z1.r1.p3
+1,1,3,2019-02-19,total aluminum,13,Al ug/L,none,-650,z1.r1,z1.r1.p3
+1,1,3,2019-03-12,total aluminum,9.6,Al ug/L,none,-629,z1.r1,z1.r1.p3
+1,1,3,2019-04-17,total aluminum,12,Al ug/L,none,-593,z1.r1,z1.r1.p3
+1,1,3,2019-05-06,total aluminum,11,Al ug/L,none,-574,z1.r1,z1.r1.p3
+1,1,3,2019-06-19,total aluminum,15,Al ug/L,none,-530,z1.r1,z1.r1.p3
+1,1,3,2019-07-26,total aluminum,16,Al ug/L,none,-493,z1.r1,z1.r1.p3
+1,1,3,2019-08-19,total aluminum,78,Al ug/L,none,-469,z1.r1,z1.r1.p3
+1,1,3,2019-09-17,total aluminum,16,Al ug/L,none,-440,z1.r1,z1.r1.p3
+1,1,3,2019-10-23,total aluminum,17,Al ug/L,none,-404,z1.r1,z1.r1.p3
+1,1,3,2019-11-22,total aluminum,12,Al ug/L,none,-374,z1.r1,z1.r1.p3
+1,1,3,2019-12-18,total aluminum,13,Al ug/L,none,-348,z1.r1,z1.r1.p3
+1,1,3,2020-01-24,total aluminum,11,Al ug/L,none,-311,z1.r1,z1.r1.p3
+1,1,3,2020-02-14,total aluminum,8.7,Al ug/L,none,-290,z1.r1,z1.r1.p3
+1,1,3,2020-03-20,total aluminum,12,Al ug/L,none,-255,z1.r1,z1.r1.p3
+1,1,3,2020-04-15,total aluminum,13,Al ug/L,none,-229,z1.r1,z1.r1.p3
+1,1,3,2020-05-12,total aluminum,11,Al ug/L,none,-202,z1.r1,z1.r1.p3
+1,1,3,2020-06-16,total aluminum,13,Al ug/L,none,-167,z1.r1,z1.r1.p3
+1,1,3,2020-07-21,total aluminum,13,Al ug/L,none,-132,z1.r1,z1.r1.p3
+1,1,3,2020-08-18,total aluminum,14,Al ug/L,none,-104,z1.r1,z1.r1.p3
+1,1,3,2020-09-14,total aluminum,17,Al ug/L,none,-77,z1.r1,z1.r1.p3
+1,1,3,2020-10-21,total aluminum,11,Al ug/L,none,-40,z1.r1,z1.r1.p3
+1,1,3,2020-11-17,total aluminum,15,Al ug/L,none,-13,z1.r1,z1.r1.p3
+1,1,3,2020-12-14,total aluminum,12,Al ug/L,none,14,z1.r1,z1.r1.p3
+1,1,3,2021-01-12,total aluminum,14,Al ug/L,none,43,z1.r1,z1.r1.p3
+1,1,3,2021-02-17,total aluminum,12,Al ug/L,none,79,z1.r1,z1.r1.p3
+1,1,3,2021-03-10,total aluminum,19,Al ug/L,none,100,z1.r1,z1.r1.p3
+1,1,3,2021-04-22,total aluminum,13,Al ug/L,none,143,z1.r1,z1.r1.p3
+1,1,3,2021-06-21,total aluminum,11,Al ug/L,none,203,z1.r1,z1.r1.p3
+1,1,3,2021-07-13,total aluminum,9.5,Al ug/L,none,225,z1.r1,z1.r1.p3
+1,1,3,2021-08-10,total aluminum,11,Al ug/L,none,253,z1.r1,z1.r1.p3
+1,1,3,2021-09-17,total aluminum,12,Al ug/L,none,291,z1.r1,z1.r1.p3
+1,1,3,2021-10-12,total aluminum,12,Al ug/L,none,316,z1.r1,z1.r1.p3
+1,1,3,2021-11-01,total aluminum,18,Al ug/L,none,336,z1.r1,z1.r1.p3
+1,1,3,2021-11-10,total aluminum,11,Al ug/L,none,345,z1.r1,z1.r1.p3
+1,1,3,2021-11-19,total aluminum,9.6,Al ug/L,none,354,z1.r1,z1.r1.p3
+1,1,3,2021-11-24,total aluminum,9.5,Al ug/L,none,359,z1.r1,z1.r1.p3
+1,1,3,2021-12-01,total aluminum,12,Al ug/L,none,366,z1.r1,z1.r1.p3
+1,1,3,2022-01-28,total aluminum,18,Al ug/L,none,424,z1.r1,z1.r1.p3
+1,1,3,2022-02-15,total aluminum,12,Al ug/L,none,442,z1.r1,z1.r1.p3
+1,1,3,2022-03-24,total aluminum,12,Al ug/L,none,479,z1.r1,z1.r1.p3
+1,1,3,2022-04-22,total aluminum,12,Al ug/L,none,508,z1.r1,z1.r1.p3
+1,1,3,2022-05-16,total aluminum,14,Al ug/L,none,532,z1.r1,z1.r1.p3
+1,1,3,2022-06-16,total aluminum,19,Al ug/L,none,563,z1.r1,z1.r1.p3
+1,1,3,2022-07-06,total aluminum,16,Al ug/L,none,583,z1.r1,z1.r1.p3
+1,1,3,2022-08-31,total aluminum,14,Al ug/L,none,639,z1.r1,z1.r1.p3
+1,1,3,2022-10-03,total aluminum,11,Al ug/L,none,672,z1.r1,z1.r1.p3
+1,1,3,2022-10-31,total aluminum,10,Al ug/L,none,700,z1.r1,z1.r1.p3
+1,1,3,2022-12-13,total aluminum,9.3,Al ug/L,none,743,z1.r1,z1.r1.p3
+1,1,4,2018-12-17,total aluminum,13,Al ug/L,none,-714,z1.r1,z1.r1.p4
+1,1,4,2018-12-17,temp,6.6,C ,none,-714,z1.r1,z1.r1.p4
+1,1,4,2019-01-25,total aluminum,12,Al ug/L,none,-675,z1.r1,z1.r1.p4
+1,1,4,2019-01-25,temp,5.7,C ,none,-675,z1.r1,z1.r1.p4
+1,1,4,2019-02-19,total aluminum,9.6,Al ug/L,none,-650,z1.r1,z1.r1.p4
+1,1,4,2019-02-19,temp,2.9,C ,none,-650,z1.r1,z1.r1.p4
+1,1,4,2019-03-12,total aluminum,11,Al ug/L,none,-629,z1.r1,z1.r1.p4
+1,1,4,2019-03-12,temp,3.2,C ,none,-629,z1.r1,z1.r1.p4
+1,1,4,2019-04-17,total aluminum,11,Al ug/L,none,-593,z1.r1,z1.r1.p4
+1,1,4,2019-04-17,temp,5.6,C ,none,-593,z1.r1,z1.r1.p4
+1,1,4,2019-05-06,total aluminum,12,Al ug/L,none,-574,z1.r1,z1.r1.p4
+1,1,4,2019-05-06,temp,8.1,C ,none,-574,z1.r1,z1.r1.p4
+1,1,4,2019-06-19,total aluminum,13,Al ug/L,none,-530,z1.r1,z1.r1.p4
+1,1,4,2019-06-19,temp,16.6,C ,none,-530,z1.r1,z1.r1.p4
+1,1,4,2019-07-26,total aluminum,19,Al ug/L,none,-493,z1.r1,z1.r1.p4
+1,1,4,2019-07-26,temp,22.4,C ,none,-493,z1.r1,z1.r1.p4
+1,1,4,2019-08-19,total aluminum,15,Al ug/L,none,-469,z1.r1,z1.r1.p4
+1,1,4,2019-08-19,temp,22,C ,none,-469,z1.r1,z1.r1.p4
+1,1,4,2019-09-17,total aluminum,15,Al ug/L,none,-440,z1.r1,z1.r1.p4
+1,1,4,2019-09-17,temp,17.9,C ,none,-440,z1.r1,z1.r1.p4
+1,1,4,2019-10-23,total aluminum,11,Al ug/L,none,-404,z1.r1,z1.r1.p4
+1,1,4,2019-10-23,temp,13.8,C ,none,-404,z1.r1,z1.r1.p4
+1,1,4,2019-11-22,total aluminum,6.5,Al ug/L,none,-374,z1.r1,z1.r1.p4
+1,1,4,2019-11-22,temp,9.4,C ,none,-374,z1.r1,z1.r1.p4
+1,1,4,2019-12-18,total aluminum,12,Al ug/L,none,-348,z1.r1,z1.r1.p4
+1,1,4,2019-12-18,temp,5.7,C ,none,-348,z1.r1,z1.r1.p4
+1,1,4,2020-01-24,total aluminum,12,Al ug/L,none,-311,z1.r1,z1.r1.p4
+1,1,4,2020-01-24,temp,3.3,C ,none,-311,z1.r1,z1.r1.p4
+1,1,4,2020-02-14,total aluminum,10,Al ug/L,none,-290,z1.r1,z1.r1.p4
+1,1,4,2020-02-14,temp,3,C ,none,-290,z1.r1,z1.r1.p4
+1,1,4,2020-03-20,total aluminum,11,Al ug/L,none,-255,z1.r1,z1.r1.p4
+1,1,4,2020-03-20,temp,4.5,C ,none,-255,z1.r1,z1.r1.p4
+1,1,4,2020-04-15,total aluminum,11,Al ug/L,none,-229,z1.r1,z1.r1.p4
+1,1,4,2020-04-15,temp,5.9,C ,none,-229,z1.r1,z1.r1.p4
+1,1,4,2020-05-12,total aluminum,11,Al ug/L,none,-202,z1.r1,z1.r1.p4
+1,1,4,2020-05-12,temp,7.9,C ,none,-202,z1.r1,z1.r1.p4
+1,1,4,2020-06-16,total aluminum,13,Al ug/L,none,-167,z1.r1,z1.r1.p4
+1,1,4,2020-06-16,temp,15.6,C ,none,-167,z1.r1,z1.r1.p4
+1,1,4,2020-07-21,total aluminum,13,Al ug/L,none,-132,z1.r1,z1.r1.p4
+1,1,4,2020-07-21,temp,21,C ,none,-132,z1.r1,z1.r1.p4
+1,1,4,2020-08-18,total aluminum,13,Al ug/L,none,-104,z1.r1,z1.r1.p4
+1,1,4,2020-08-18,temp,22.6,C ,none,-104,z1.r1,z1.r1.p4
+1,1,4,2020-09-14,total aluminum,12,Al ug/L,none,-77,z1.r1,z1.r1.p4
+1,1,4,2020-09-14,temp,20.1,C ,none,-77,z1.r1,z1.r1.p4
+1,1,4,2020-10-21,total aluminum,11,Al ug/L,none,-40,z1.r1,z1.r1.p4
+1,1,4,2020-11-17,total aluminum,15,Al ug/L,none,-13,z1.r1,z1.r1.p4
+1,1,4,2020-11-17,temp,11,C ,none,-13,z1.r1,z1.r1.p4
+1,1,4,2020-12-14,total aluminum,16,Al ug/L,none,14,z1.r1,z1.r1.p4
+1,1,4,2020-12-14,temp,8.9,C ,none,14,z1.r1,z1.r1.p4
+1,1,4,2021-01-12,total aluminum,11,Al ug/L,none,43,z1.r1,z1.r1.p4
+1,1,4,2021-01-12,temp,5.6,C ,none,43,z1.r1,z1.r1.p4
+1,1,4,2021-02-17,total aluminum,12,Al ug/L,none,79,z1.r1,z1.r1.p4
+1,1,4,2021-02-17,temp,3.7,C ,none,79,z1.r1,z1.r1.p4
+1,1,4,2021-03-10,total aluminum,14,Al ug/L,none,100,z1.r1,z1.r1.p4
+1,1,4,2021-03-10,temp,3.9,C ,none,100,z1.r1,z1.r1.p4
+1,1,4,2021-04-22,total aluminum,12,Al ug/L,none,143,z1.r1,z1.r1.p4
+1,1,4,2021-04-22,temp,8.8,C ,none,143,z1.r1,z1.r1.p4
+1,1,4,2021-06-21,total aluminum,13,Al ug/L,none,203,z1.r1,z1.r1.p4
+1,1,4,2021-06-21,temp,19,C ,none,203,z1.r1,z1.r1.p4
+1,1,4,2021-07-13,total aluminum,8.7,Al ug/L,none,225,z1.r1,z1.r1.p4
+1,1,4,2021-07-13,temp,20.5,C ,none,225,z1.r1,z1.r1.p4
+1,1,4,2021-08-10,total aluminum,12,Al ug/L,none,253,z1.r1,z1.r1.p4
+1,1,4,2021-08-10,temp,21.5,C ,none,253,z1.r1,z1.r1.p4
+1,1,4,2021-09-17,total aluminum,13,Al ug/L,none,291,z1.r1,z1.r1.p4
+1,1,4,2021-09-17,temp,19.8,C ,none,291,z1.r1,z1.r1.p4
+1,1,4,2021-10-12,total aluminum,11,Al ug/L,none,316,z1.r1,z1.r1.p4
+1,1,4,2021-10-12,temp,17.9,C ,none,316,z1.r1,z1.r1.p4
+1,1,4,2021-11-01,total aluminum,12,Al ug/L,none,336,z1.r1,z1.r1.p4
+1,1,4,2021-11-01,temp,15.1,C ,none,336,z1.r1,z1.r1.p4
+1,1,4,2021-11-10,total aluminum,11,Al ug/L,none,345,z1.r1,z1.r1.p4
+1,1,4,2021-11-10,temp,13,C ,none,345,z1.r1,z1.r1.p4
+1,1,4,2021-11-19,total aluminum,12,Al ug/L,none,354,z1.r1,z1.r1.p4
+1,1,4,2021-11-19,temp,14.7,C ,none,354,z1.r1,z1.r1.p4
+1,1,4,2021-11-24,total aluminum,8.7,Al ug/L,none,359,z1.r1,z1.r1.p4
+1,1,4,2021-11-24,temp,9.9,C ,none,359,z1.r1,z1.r1.p4
+1,1,4,2021-12-01,total aluminum,11,Al ug/L,none,366,z1.r1,z1.r1.p4
+1,1,4,2021-12-01,temp,9.1,C ,none,366,z1.r1,z1.r1.p4
+1,1,4,2022-01-28,total aluminum,14,Al ug/L,none,424,z1.r1,z1.r1.p4
+1,1,4,2022-01-28,temp,2.8,C ,none,424,z1.r1,z1.r1.p4
+1,1,4,2022-02-15,total aluminum,29,Al ug/L,none,442,z1.r1,z1.r1.p4
+1,1,4,2022-02-15,temp,2.4,C ,none,442,z1.r1,z1.r1.p4
+1,1,4,2022-03-24,total aluminum,13,Al ug/L,none,479,z1.r1,z1.r1.p4
+1,1,4,2022-03-24,temp,4,C ,none,479,z1.r1,z1.r1.p4
+1,1,4,2022-04-22,total aluminum,13,Al ug/L,none,508,z1.r1,z1.r1.p4
+1,1,4,2022-04-22,temp,7.8,C ,none,508,z1.r1,z1.r1.p4
+1,1,4,2022-05-16,total aluminum,12,Al ug/L,none,532,z1.r1,z1.r1.p4
+1,1,4,2022-05-16,temp,12.2,C ,none,532,z1.r1,z1.r1.p4
+1,1,4,2022-06-16,total aluminum,14,Al ug/L,none,563,z1.r1,z1.r1.p4
+1,1,4,2022-06-16,temp,17.2,C ,none,563,z1.r1,z1.r1.p4
+1,1,4,2022-07-06,total aluminum,15,Al ug/L,none,583,z1.r1,z1.r1.p4
+1,1,4,2022-07-06,temp,19.6,C ,none,583,z1.r1,z1.r1.p4
+1,1,4,2022-08-31,total aluminum,16,Al ug/L,none,639,z1.r1,z1.r1.p4
+1,1,4,2022-08-31,temp,22.9,C ,none,639,z1.r1,z1.r1.p4
+1,1,4,2022-10-03,total aluminum,13,Al ug/L,none,672,z1.r1,z1.r1.p4
+1,1,4,2022-10-03,temp,16.1,C ,none,672,z1.r1,z1.r1.p4
+1,1,4,2022-10-31,total aluminum,15,Al ug/L,none,700,z1.r1,z1.r1.p4
+1,1,4,2022-10-31,temp,14.7,C ,none,700,z1.r1,z1.r1.p4
+1,1,4,2022-12-13,total aluminum,8.7,Al ug/L,none,743,z1.r1,z1.r1.p4
+1,1,4,2022-12-13,temp,6.8,C ,none,743,z1.r1,z1.r1.p4
+1,2,1,2018-12-17,total aluminum,7.8,Al ug/L,none,-714,z1.r2,z1.r2.p1
+1,2,1,2019-01-25,total aluminum,28,Al ug/L,none,-675,z1.r2,z1.r2.p1
+1,2,1,2019-02-26,total aluminum,9.9,Al ug/L,none,-643,z1.r2,z1.r2.p1
+1,2,1,2019-03-12,total aluminum,7.7,Al ug/L,none,-629,z1.r2,z1.r2.p1
+1,2,1,2019-04-24,total aluminum,8.8,Al ug/L,none,-586,z1.r2,z1.r2.p1
+1,2,1,2019-05-06,total aluminum,11,Al ug/L,none,-574,z1.r2,z1.r2.p1
+1,2,1,2019-06-19,total aluminum,7.5,Al ug/L,none,-530,z1.r2,z1.r2.p1
+1,2,1,2019-07-30,total aluminum,12,Al ug/L,none,-489,z1.r2,z1.r2.p1
+1,2,1,2019-08-19,total aluminum,8.2,Al ug/L,none,-469,z1.r2,z1.r2.p1
+1,2,1,2019-09-17,total aluminum,9.6,Al ug/L,none,-440,z1.r2,z1.r2.p1
+1,2,1,2019-10-28,total aluminum,6.7,Al ug/L,none,-399,z1.r2,z1.r2.p1
+1,2,1,2019-11-22,total aluminum,7.7,Al ug/L,none,-374,z1.r2,z1.r2.p1
+1,2,1,2019-12-18,total aluminum,8.1,Al ug/L,none,-348,z1.r2,z1.r2.p1
+1,2,1,2020-01-24,total aluminum,9.3,Al ug/L,none,-311,z1.r2,z1.r2.p1
+1,2,1,2020-02-14,total aluminum,9.8,Al ug/L,none,-290,z1.r2,z1.r2.p1
+1,2,1,2020-03-20,total aluminum,10,Al ug/L,none,-255,z1.r2,z1.r2.p1
+1,2,1,2020-04-15,total aluminum,9.4,Al ug/L,none,-229,z1.r2,z1.r2.p1
+1,2,1,2020-05-12,total aluminum,7.7,Al ug/L,none,-202,z1.r2,z1.r2.p1
+1,2,1,2020-06-16,total aluminum,6.9,Al ug/L,none,-167,z1.r2,z1.r2.p1
+1,2,1,2020-07-21,total aluminum,19,Al ug/L,none,-132,z1.r2,z1.r2.p1
+1,2,1,2020-08-18,total aluminum,18,Al ug/L,none,-104,z1.r2,z1.r2.p1
+1,2,1,2020-09-14,total aluminum,10,Al ug/L,none,-77,z1.r2,z1.r2.p1
+1,2,1,2020-10-21,total aluminum,6.4,Al ug/L,none,-40,z1.r2,z1.r2.p1
+1,2,1,2020-11-17,total aluminum,11,Al ug/L,none,-13,z1.r2,z1.r2.p1
+1,2,1,2020-12-14,total aluminum,9.2,Al ug/L,none,14,z1.r2,z1.r2.p1
+1,2,1,2021-01-12,total aluminum,8.7,Al ug/L,none,43,z1.r2,z1.r2.p1
+1,2,1,2021-02-17,total aluminum,14,Al ug/L,none,79,z1.r2,z1.r2.p1
+1,2,1,2021-03-10,total aluminum,13,Al ug/L,none,100,z1.r2,z1.r2.p1
+1,2,1,2021-04-15,total aluminum,8.3,Al ug/L,none,136,z1.r2,z1.r2.p1
+1,2,1,2021-06-21,total aluminum,9.3,Al ug/L,none,203,z1.r2,z1.r2.p1
+1,2,1,2021-07-13,total aluminum,13,Al ug/L,none,225,z1.r2,z1.r2.p1
+1,2,1,2021-08-13,total aluminum,11,Al ug/L,none,256,z1.r2,z1.r2.p1
+1,2,1,2021-09-27,total aluminum,6.9,Al ug/L,none,301,z1.r2,z1.r2.p1
+1,2,1,2021-10-12,total aluminum,8.8,Al ug/L,none,316,z1.r2,z1.r2.p1
+1,2,1,2021-11-01,total aluminum,20,Al ug/L,none,336,z1.r2,z1.r2.p1
+1,2,1,2021-11-10,total aluminum,9.2,Al ug/L,none,345,z1.r2,z1.r2.p1
+1,2,1,2021-11-19,total aluminum,9.1,Al ug/L,none,354,z1.r2,z1.r2.p1
+1,2,1,2021-11-24,total aluminum,5.7,Al ug/L,none,359,z1.r2,z1.r2.p1
+1,2,1,2021-12-01,total aluminum,6.4,Al ug/L,none,366,z1.r2,z1.r2.p1
+1,2,1,2022-01-28,total aluminum,12,Al ug/L,none,424,z1.r2,z1.r2.p1
+1,2,1,2022-02-15,total aluminum,10,Al ug/L,none,442,z1.r2,z1.r2.p1
+1,2,1,2022-03-24,total aluminum,9.3,Al ug/L,none,479,z1.r2,z1.r2.p1
+1,2,1,2022-04-22,total aluminum,9.8,Al ug/L,none,508,z1.r2,z1.r2.p1
+1,2,1,2022-05-16,total aluminum,16,Al ug/L,none,532,z1.r2,z1.r2.p1
+1,2,1,2022-06-16,total aluminum,17,Al ug/L,none,563,z1.r2,z1.r2.p1
+1,2,1,2022-07-06,total aluminum,8.3,Al ug/L,none,583,z1.r2,z1.r2.p1
+1,2,1,2022-08-31,total aluminum,21,Al ug/L,none,639,z1.r2,z1.r2.p1
+1,2,1,2022-10-03,total aluminum,8.7,Al ug/L,none,672,z1.r2,z1.r2.p1
+1,2,1,2022-10-31,total aluminum,11,Al ug/L,none,700,z1.r2,z1.r2.p1
+1,2,1,2022-12-13,total aluminum,16,Al ug/L,none,743,z1.r2,z1.r2.p1
+1,2,2,2018-12-17,total aluminum,7.7,Al ug/L,none,-714,z1.r2,z1.r2.p2
+1,2,2,2019-01-25,total aluminum,9.4,Al ug/L,none,-675,z1.r2,z1.r2.p2
+1,2,2,2019-02-26,total aluminum,11,Al ug/L,none,-643,z1.r2,z1.r2.p2
+1,2,2,2019-03-12,total aluminum,7.3,Al ug/L,none,-629,z1.r2,z1.r2.p2
+1,2,2,2019-04-24,total aluminum,8,Al ug/L,none,-586,z1.r2,z1.r2.p2
+1,2,2,2019-05-06,total aluminum,7.2,Al ug/L,none,-574,z1.r2,z1.r2.p2
+1,2,2,2019-06-19,total aluminum,8.6,Al ug/L,none,-530,z1.r2,z1.r2.p2
+1,2,2,2019-07-30,total aluminum,9.1,Al ug/L,none,-489,z1.r2,z1.r2.p2
+1,2,2,2019-08-19,total aluminum,8.8,Al ug/L,none,-469,z1.r2,z1.r2.p2
+1,2,2,2019-09-17,total aluminum,8.9,Al ug/L,none,-440,z1.r2,z1.r2.p2
+1,2,2,2019-10-28,total aluminum,6.6,Al ug/L,none,-399,z1.r2,z1.r2.p2
+1,2,2,2019-11-22,total aluminum,8.1,Al ug/L,none,-374,z1.r2,z1.r2.p2
+1,2,2,2019-12-18,total aluminum,8.9,Al ug/L,none,-348,z1.r2,z1.r2.p2
+1,2,2,2020-01-24,total aluminum,9.5,Al ug/L,none,-311,z1.r2,z1.r2.p2
+1,2,2,2020-02-14,total aluminum,11,Al ug/L,none,-290,z1.r2,z1.r2.p2
+1,2,2,2020-03-20,total aluminum,8.9,Al ug/L,none,-255,z1.r2,z1.r2.p2
+1,2,2,2020-04-15,total aluminum,9.1,Al ug/L,none,-229,z1.r2,z1.r2.p2
+1,2,2,2020-05-12,total aluminum,7.2,Al ug/L,none,-202,z1.r2,z1.r2.p2
+1,2,2,2020-06-16,total aluminum,6.7,Al ug/L,none,-167,z1.r2,z1.r2.p2
+1,2,2,2020-07-21,total aluminum,21,Al ug/L,none,-132,z1.r2,z1.r2.p2
+1,2,2,2020-08-18,total aluminum,18,Al ug/L,none,-104,z1.r2,z1.r2.p2
+1,2,2,2020-09-14,total aluminum,9.8,Al ug/L,none,-77,z1.r2,z1.r2.p2
+1,2,2,2020-10-21,total aluminum,6.4,Al ug/L,none,-40,z1.r2,z1.r2.p2
+1,2,2,2020-11-17,total aluminum,8.9,Al ug/L,none,-13,z1.r2,z1.r2.p2
+1,2,2,2020-12-14,total aluminum,9.2,Al ug/L,none,14,z1.r2,z1.r2.p2
+1,2,2,2021-01-12,total aluminum,9.3,Al ug/L,none,43,z1.r2,z1.r2.p2
+1,2,2,2021-02-17,total aluminum,9.8,Al ug/L,none,79,z1.r2,z1.r2.p2
+1,2,2,2021-03-10,total aluminum,13,Al ug/L,none,100,z1.r2,z1.r2.p2
+1,2,2,2021-04-15,total aluminum,10,Al ug/L,none,136,z1.r2,z1.r2.p2
+1,2,2,2021-06-21,total aluminum,8.4,Al ug/L,none,203,z1.r2,z1.r2.p2
+1,2,2,2021-07-13,total aluminum,12,Al ug/L,none,225,z1.r2,z1.r2.p2
+1,2,2,2021-08-13,total aluminum,9.9,Al ug/L,none,256,z1.r2,z1.r2.p2
+1,2,2,2021-09-27,total aluminum,8.5,Al ug/L,none,301,z1.r2,z1.r2.p2
+1,2,2,2021-10-12,total aluminum,7.6,Al ug/L,none,316,z1.r2,z1.r2.p2
+1,2,2,2021-11-01,total aluminum,12,Al ug/L,none,336,z1.r2,z1.r2.p2
+1,2,2,2021-11-10,total aluminum,11,Al ug/L,none,345,z1.r2,z1.r2.p2
+1,2,2,2021-11-19,total aluminum,8.6,Al ug/L,none,354,z1.r2,z1.r2.p2
+1,2,2,2021-11-24,total aluminum,7.8,Al ug/L,none,359,z1.r2,z1.r2.p2
+1,2,2,2021-12-01,total aluminum,6.9,Al ug/L,none,366,z1.r2,z1.r2.p2
+1,2,2,2022-01-28,total aluminum,15,Al ug/L,none,424,z1.r2,z1.r2.p2
+1,2,2,2022-02-15,total aluminum,9.1,Al ug/L,none,442,z1.r2,z1.r2.p2
+1,2,2,2022-03-24,total aluminum,8.7,Al ug/L,none,479,z1.r2,z1.r2.p2
+1,2,2,2022-04-22,total aluminum,7.9,Al ug/L,none,508,z1.r2,z1.r2.p2
+1,2,2,2022-05-16,total aluminum,18,Al ug/L,none,532,z1.r2,z1.r2.p2
+1,2,2,2022-06-16,total aluminum,14,Al ug/L,none,563,z1.r2,z1.r2.p2
+1,2,2,2022-07-06,total aluminum,15,Al ug/L,none,583,z1.r2,z1.r2.p2
+1,2,2,2022-08-31,total aluminum,10,Al ug/L,none,639,z1.r2,z1.r2.p2
+1,2,2,2022-10-03,total aluminum,9.7,Al ug/L,none,672,z1.r2,z1.r2.p2
+1,2,2,2022-10-31,total aluminum,8,Al ug/L,none,700,z1.r2,z1.r2.p2
+1,2,2,2022-12-13,total aluminum,15,Al ug/L,none,743,z1.r2,z1.r2.p2
+1,2,3,2018-12-17,total aluminum,51,Al ug/L,none,-714,z1.r2,z1.r2.p3
+1,2,3,2019-01-25,total aluminum,9.5,Al ug/L,none,-675,z1.r2,z1.r2.p3
+1,2,3,2019-02-26,total aluminum,9.2,Al ug/L,none,-643,z1.r2,z1.r2.p3
+1,2,3,2019-03-12,total aluminum,7.1,Al ug/L,none,-629,z1.r2,z1.r2.p3
+1,2,3,2019-04-24,total aluminum,7.6,Al ug/L,none,-586,z1.r2,z1.r2.p3
+1,2,3,2019-05-06,total aluminum,11,Al ug/L,none,-574,z1.r2,z1.r2.p3
+1,2,3,2019-06-19,total aluminum,12,Al ug/L,none,-530,z1.r2,z1.r2.p3
+1,2,3,2019-07-30,total aluminum,15,Al ug/L,none,-489,z1.r2,z1.r2.p3
+1,2,3,2019-08-19,total aluminum,14,Al ug/L,none,-469,z1.r2,z1.r2.p3
+1,2,3,2019-09-17,total aluminum,9.1,Al ug/L,none,-440,z1.r2,z1.r2.p3
+1,2,3,2019-10-28,total aluminum,6.7,Al ug/L,none,-399,z1.r2,z1.r2.p3
+1,2,3,2019-11-22,total aluminum,8.4,Al ug/L,none,-374,z1.r2,z1.r2.p3
+1,2,3,2019-12-18,total aluminum,10,Al ug/L,none,-348,z1.r2,z1.r2.p3
+1,2,3,2020-01-24,total aluminum,13,Al ug/L,none,-311,z1.r2,z1.r2.p3
+1,2,3,2020-02-14,total aluminum,9.3,Al ug/L,none,-290,z1.r2,z1.r2.p3
+1,2,3,2020-03-20,total aluminum,9.4,Al ug/L,none,-255,z1.r2,z1.r2.p3
+1,2,3,2020-04-15,total aluminum,8.6,Al ug/L,none,-229,z1.r2,z1.r2.p3
+1,2,3,2020-05-12,total aluminum,7.7,Al ug/L,none,-202,z1.r2,z1.r2.p3
+1,2,3,2020-06-16,total aluminum,6.7,Al ug/L,none,-167,z1.r2,z1.r2.p3
+1,2,3,2020-07-21,total aluminum,18,Al ug/L,none,-132,z1.r2,z1.r2.p3
+1,2,3,2020-08-18,total aluminum,18,Al ug/L,none,-104,z1.r2,z1.r2.p3
+1,2,3,2020-09-14,total aluminum,9.3,Al ug/L,none,-77,z1.r2,z1.r2.p3
+1,2,3,2020-10-21,total aluminum,6,Al ug/L,none,-40,z1.r2,z1.r2.p3
+1,2,3,2020-11-17,total aluminum,7.8,Al ug/L,none,-13,z1.r2,z1.r2.p3
+1,2,3,2020-12-14,total aluminum,9.2,Al ug/L,none,14,z1.r2,z1.r2.p3
+1,2,3,2021-01-12,total aluminum,8.9,Al ug/L,none,43,z1.r2,z1.r2.p3
+1,2,3,2021-02-17,total aluminum,10,Al ug/L,none,79,z1.r2,z1.r2.p3
+1,2,3,2021-03-10,total aluminum,9.3,Al ug/L,none,100,z1.r2,z1.r2.p3
+1,2,3,2021-04-15,total aluminum,9.1,Al ug/L,none,136,z1.r2,z1.r2.p3
+1,2,3,2021-06-21,total aluminum,8.3,Al ug/L,none,203,z1.r2,z1.r2.p3
+1,2,3,2021-07-13,total aluminum,12,Al ug/L,none,225,z1.r2,z1.r2.p3
+1,2,3,2021-08-13,total aluminum,13,Al ug/L,none,256,z1.r2,z1.r2.p3
+1,2,3,2021-09-27,total aluminum,22,Al ug/L,none,301,z1.r2,z1.r2.p3
+1,2,3,2021-10-12,total aluminum,7,Al ug/L,none,316,z1.r2,z1.r2.p3
+1,2,3,2021-11-01,total aluminum,12,Al ug/L,none,336,z1.r2,z1.r2.p3
+1,2,3,2021-11-10,total aluminum,15,Al ug/L,none,345,z1.r2,z1.r2.p3
+1,2,3,2021-11-19,total aluminum,17,Al ug/L,none,354,z1.r2,z1.r2.p3
+1,2,3,2021-11-24,total aluminum,10,Al ug/L,none,359,z1.r2,z1.r2.p3
+1,2,3,2021-12-01,total aluminum,6.9,Al ug/L,none,366,z1.r2,z1.r2.p3
+1,2,3,2022-01-28,total aluminum,14,Al ug/L,none,424,z1.r2,z1.r2.p3
+1,2,3,2022-02-15,total aluminum,9,Al ug/L,none,442,z1.r2,z1.r2.p3
+1,2,3,2022-03-24,total aluminum,7.9,Al ug/L,none,479,z1.r2,z1.r2.p3
+1,2,3,2022-04-22,total aluminum,7.3,Al ug/L,none,508,z1.r2,z1.r2.p3
+1,2,3,2022-05-16,total aluminum,17,Al ug/L,none,532,z1.r2,z1.r2.p3
+1,2,3,2022-06-16,total aluminum,11,Al ug/L,none,563,z1.r2,z1.r2.p3
+1,2,3,2022-07-06,total aluminum,9.6,Al ug/L,none,583,z1.r2,z1.r2.p3
+1,2,3,2022-08-31,total aluminum,11,Al ug/L,none,639,z1.r2,z1.r2.p3
+1,2,3,2022-10-03,total aluminum,11,Al ug/L,none,672,z1.r2,z1.r2.p3
+1,2,3,2022-10-31,total aluminum,39,Al ug/L,none,700,z1.r2,z1.r2.p3
+1,2,3,2022-12-13,total aluminum,14,Al ug/L,none,743,z1.r2,z1.r2.p3
+1,2,4,2018-12-17,total aluminum,7,Al ug/L,none,-714,z1.r2,z1.r2.p4
+1,2,4,2018-12-17,temp,9.4,C ,none,-714,z1.r2,z1.r2.p4
+1,2,4,2019-01-25,total aluminum,7.9,Al ug/L,none,-675,z1.r2,z1.r2.p4
+1,2,4,2019-01-25,temp,6.2,C ,none,-675,z1.r2,z1.r2.p4
+1,2,4,2019-02-26,total aluminum,18,Al ug/L,none,-643,z1.r2,z1.r2.p4
+1,2,4,2019-02-26,temp,5.4,C ,none,-643,z1.r2,z1.r2.p4
+1,2,4,2019-03-12,total aluminum,7.9,Al ug/L,none,-629,z1.r2,z1.r2.p4
+1,2,4,2019-03-12,temp,5.5,C ,none,-629,z1.r2,z1.r2.p4
+1,2,4,2019-04-24,total aluminum,6.9,Al ug/L,none,-586,z1.r2,z1.r2.p4
+1,2,4,2019-04-24,temp,9.6,C ,none,-586,z1.r2,z1.r2.p4
+1,2,4,2019-05-06,total aluminum,7.2,Al ug/L,none,-574,z1.r2,z1.r2.p4
+1,2,4,2019-05-06,temp,12.5,C ,none,-574,z1.r2,z1.r2.p4
+1,2,4,2019-06-19,total aluminum,7.3,Al ug/L,none,-530,z1.r2,z1.r2.p4
+1,2,4,2019-06-19,temp,16.7,C ,none,-530,z1.r2,z1.r2.p4
+1,2,4,2019-07-30,total aluminum,9.7,Al ug/L,none,-489,z1.r2,z1.r2.p4
+1,2,4,2019-07-30,temp,23.1,C ,none,-489,z1.r2,z1.r2.p4
+1,2,4,2019-08-19,total aluminum,11,Al ug/L,none,-469,z1.r2,z1.r2.p4
+1,2,4,2019-08-19,temp,21.6,C ,none,-469,z1.r2,z1.r2.p4
+1,2,4,2019-09-17,total aluminum,8.3,Al ug/L,none,-440,z1.r2,z1.r2.p4
+1,2,4,2019-09-17,temp,17.8,C ,none,-440,z1.r2,z1.r2.p4
+1,2,4,2019-10-28,total aluminum,6.5,Al ug/L,none,-399,z1.r2,z1.r2.p4
+1,2,4,2019-10-28,temp,15.8,C ,none,-399,z1.r2,z1.r2.p4
+1,2,4,2019-11-22,total aluminum,7.1,Al ug/L,none,-374,z1.r2,z1.r2.p4
+1,2,4,2019-11-22,temp,11.3,C ,none,-374,z1.r2,z1.r2.p4
+1,2,4,2019-12-18,total aluminum,9,Al ug/L,none,-348,z1.r2,z1.r2.p4
+1,2,4,2019-12-18,temp,8.8,C ,none,-348,z1.r2,z1.r2.p4
+1,2,4,2020-01-24,total aluminum,10,Al ug/L,none,-311,z1.r2,z1.r2.p4
+1,2,4,2020-01-24,temp,5,C ,none,-311,z1.r2,z1.r2.p4
+1,2,4,2020-02-14,total aluminum,9.4,Al ug/L,none,-290,z1.r2,z1.r2.p4
+1,2,4,2020-02-14,temp,6.5,C ,none,-290,z1.r2,z1.r2.p4
+1,2,4,2020-03-20,total aluminum,8.8,Al ug/L,none,-255,z1.r2,z1.r2.p4
+1,2,4,2020-03-20,temp,8,C ,none,-255,z1.r2,z1.r2.p4
+1,2,4,2020-04-15,total aluminum,8.3,Al ug/L,none,-229,z1.r2,z1.r2.p4
+1,2,4,2020-04-15,temp,9.3,C ,none,-229,z1.r2,z1.r2.p4
+1,2,4,2020-05-12,total aluminum,7.2,Al ug/L,none,-202,z1.r2,z1.r2.p4
+1,2,4,2020-05-12,temp,10.8,C ,none,-202,z1.r2,z1.r2.p4
+1,2,4,2020-06-16,total aluminum,6.5,Al ug/L,none,-167,z1.r2,z1.r2.p4
+1,2,4,2020-06-16,temp,16.1,C ,none,-167,z1.r2,z1.r2.p4
+1,2,4,2020-07-21,total aluminum,18,Al ug/L,none,-132,z1.r2,z1.r2.p4
+1,2,4,2020-07-21,temp,19.7,C ,none,-132,z1.r2,z1.r2.p4
+1,2,4,2020-08-18,total aluminum,19,Al ug/L,none,-104,z1.r2,z1.r2.p4
+1,2,4,2020-08-18,temp,20.9,C ,none,-104,z1.r2,z1.r2.p4
+1,2,4,2020-09-14,total aluminum,11,Al ug/L,none,-77,z1.r2,z1.r2.p4
+1,2,4,2020-09-14,temp,20.6,C ,none,-77,z1.r2,z1.r2.p4
+1,2,4,2020-10-21,total aluminum,6.5,Al ug/L,none,-40,z1.r2,z1.r2.p4
+1,2,4,2020-11-17,total aluminum,11,Al ug/L,none,-13,z1.r2,z1.r2.p4
+1,2,4,2020-11-17,temp,13.4,C ,none,-13,z1.r2,z1.r2.p4
+1,2,4,2020-12-14,total aluminum,8.8,Al ug/L,none,14,z1.r2,z1.r2.p4
+1,2,4,2020-12-14,temp,11.3,C ,none,14,z1.r2,z1.r2.p4
+1,2,4,2021-01-12,total aluminum,9.8,Al ug/L,none,43,z1.r2,z1.r2.p4
+1,2,4,2021-01-12,temp,8.6,C ,none,43,z1.r2,z1.r2.p4
+1,2,4,2021-02-17,total aluminum,9.5,Al ug/L,none,79,z1.r2,z1.r2.p4
+1,2,4,2021-02-17,temp,6.9,C ,none,79,z1.r2,z1.r2.p4
+1,2,4,2021-03-10,total aluminum,12,Al ug/L,none,100,z1.r2,z1.r2.p4
+1,2,4,2021-03-10,temp,7.1,C ,none,100,z1.r2,z1.r2.p4
+1,2,4,2021-04-15,total aluminum,13,Al ug/L,none,136,z1.r2,z1.r2.p4
+1,2,4,2021-04-15,temp,11,C ,none,136,z1.r2,z1.r2.p4
+1,2,4,2021-06-21,total aluminum,11,Al ug/L,none,203,z1.r2,z1.r2.p4
+1,2,4,2021-06-21,temp,18.9,C ,none,203,z1.r2,z1.r2.p4
+1,2,4,2021-07-13,total aluminum,12,Al ug/L,none,225,z1.r2,z1.r2.p4
+1,2,4,2021-07-13,temp,19.8,C ,none,225,z1.r2,z1.r2.p4
+1,2,4,2021-08-13,total aluminum,12,Al ug/L,none,256,z1.r2,z1.r2.p4
+1,2,4,2021-08-13,temp,21.9,C ,none,256,z1.r2,z1.r2.p4
+1,2,4,2021-09-27,total aluminum,8.4,Al ug/L,none,301,z1.r2,z1.r2.p4
+1,2,4,2021-09-27,temp,20.5,C ,none,301,z1.r2,z1.r2.p4
+1,2,4,2021-10-12,total aluminum,6.8,Al ug/L,none,316,z1.r2,z1.r2.p4
+1,2,4,2021-10-12,temp,18.1,C ,none,316,z1.r2,z1.r2.p4
+1,2,4,2021-11-01,total aluminum,11,Al ug/L,none,336,z1.r2,z1.r2.p4
+1,2,4,2021-11-01,temp,16.8,C ,none,336,z1.r2,z1.r2.p4
+1,2,4,2021-11-10,total aluminum,13,Al ug/L,none,345,z1.r2,z1.r2.p4
+1,2,4,2021-11-10,temp,14.2,C ,none,345,z1.r2,z1.r2.p4
+1,2,4,2021-11-19,total aluminum,7.8,Al ug/L,none,354,z1.r2,z1.r2.p4
+1,2,4,2021-11-19,temp,12.5,C ,none,354,z1.r2,z1.r2.p4
+1,2,4,2021-11-24,total aluminum,6.4,Al ug/L,none,359,z1.r2,z1.r2.p4
+1,2,4,2021-11-24,temp,11.9,C ,none,359,z1.r2,z1.r2.p4
+1,2,4,2021-12-01,total aluminum,7.1,Al ug/L,none,366,z1.r2,z1.r2.p4
+1,2,4,2021-12-01,temp,14.9,C ,none,366,z1.r2,z1.r2.p4
+1,2,4,2022-01-28,total aluminum,13,Al ug/L,none,424,z1.r2,z1.r2.p4
+1,2,4,2022-01-28,temp,7,C ,none,424,z1.r2,z1.r2.p4
+1,2,4,2022-02-15,total aluminum,8.9,Al ug/L,none,442,z1.r2,z1.r2.p4
+1,2,4,2022-02-15,temp,12.9,C ,none,442,z1.r2,z1.r2.p4
+1,2,4,2022-03-24,total aluminum,32,Al ug/L,none,479,z1.r2,z1.r2.p4
+1,2,4,2022-03-24,temp,13.4,C ,none,479,z1.r2,z1.r2.p4
+1,2,4,2022-04-22,total aluminum,8.4,Al ug/L,none,508,z1.r2,z1.r2.p4
+1,2,4,2022-04-22,temp,12.1,C ,none,508,z1.r2,z1.r2.p4
+1,2,4,2022-05-16,total aluminum,17,Al ug/L,none,532,z1.r2,z1.r2.p4
+1,2,4,2022-05-16,temp,15.8,C ,none,532,z1.r2,z1.r2.p4
+1,2,4,2022-06-16,total aluminum,10,Al ug/L,none,563,z1.r2,z1.r2.p4
+1,2,4,2022-06-16,temp,16.5,C ,none,563,z1.r2,z1.r2.p4
+1,2,4,2022-07-06,total aluminum,10,Al ug/L,none,583,z1.r2,z1.r2.p4
+1,2,4,2022-07-06,temp,17.9,C ,none,583,z1.r2,z1.r2.p4
+1,2,4,2022-10-03,total aluminum,12,Al ug/L,none,672,z1.r2,z1.r2.p4
+1,2,4,2022-10-03,temp,17.1,C ,none,672,z1.r2,z1.r2.p4
+1,2,4,2022-10-31,total aluminum,11,Al ug/L,none,700,z1.r2,z1.r2.p4
+1,2,4,2022-10-31,temp,16.1,C ,none,700,z1.r2,z1.r2.p4
+1,2,4,2022-12-13,total aluminum,17,Al ug/L,none,743,z1.r2,z1.r2.p4
+1,2,4,2022-12-13,temp,9.6,C ,none,743,z1.r2,z1.r2.p4
+2,1,1,2018-12-17,total aluminum,200,Al ug/L,none,-955,z2.r1,z2.r1.p1
+2,1,1,2019-01-25,total aluminum,170,Al ug/L,none,-916,z2.r1,z2.r1.p1
+2,1,1,2019-02-19,total aluminum,110,Al ug/L,none,-891,z2.r1,z2.r1.p1
+2,1,1,2019-03-12,total aluminum,110,Al ug/L,none,-870,z2.r1,z2.r1.p1
+2,1,1,2019-04-26,total aluminum,160,Al ug/L,none,-825,z2.r1,z2.r1.p1
+2,1,1,2019-05-28,total aluminum,74,Al ug/L,none,-793,z2.r1,z2.r1.p1
+2,1,1,2019-06-19,total aluminum,55,Al ug/L,none,-771,z2.r1,z2.r1.p1
+2,1,1,2019-07-26,total aluminum,33,Al ug/L,none,-734,z2.r1,z2.r1.p1
+2,1,1,2019-08-19,total aluminum,31,Al ug/L,none,-710,z2.r1,z2.r1.p1
+2,1,1,2019-09-17,total aluminum,41,Al ug/L,none,-681,z2.r1,z2.r1.p1
+2,1,1,2019-10-23,total aluminum,43,Al ug/L,none,-645,z2.r1,z2.r1.p1
+2,1,1,2019-11-22,total aluminum,67,Al ug/L,none,-615,z2.r1,z2.r1.p1
+2,1,1,2019-12-27,total aluminum,140,Al ug/L,none,-580,z2.r1,z2.r1.p1
+2,1,1,2020-01-24,total aluminum,100,Al ug/L,none,-552,z2.r1,z2.r1.p1
+2,1,1,2020-02-19,total aluminum,75,Al ug/L,none,-526,z2.r1,z2.r1.p1
+2,1,1,2020-03-20,total aluminum,55,Al ug/L,none,-496,z2.r1,z2.r1.p1
+2,1,1,2020-04-15,total aluminum,61,Al ug/L,none,-470,z2.r1,z2.r1.p1
+2,1,1,2020-05-12,total aluminum,53,Al ug/L,none,-443,z2.r1,z2.r1.p1
+2,1,1,2020-06-16,total aluminum,23,Al ug/L,none,-408,z2.r1,z2.r1.p1
+2,1,1,2020-07-21,total aluminum,20,Al ug/L,none,-373,z2.r1,z2.r1.p1
+2,1,1,2020-08-18,total aluminum,23,Al ug/L,none,-345,z2.r1,z2.r1.p1
+2,1,1,2020-09-14,total aluminum,28,Al ug/L,none,-318,z2.r1,z2.r1.p1
+2,1,1,2020-10-21,total aluminum,30,Al ug/L,none,-281,z2.r1,z2.r1.p1
+2,1,1,2020-11-17,total aluminum,42,Al ug/L,none,-254,z2.r1,z2.r1.p1
+2,1,1,2020-12-14,total aluminum,68,Al ug/L,none,-227,z2.r1,z2.r1.p1
+2,1,1,2021-01-12,total aluminum,89,Al ug/L,none,-198,z2.r1,z2.r1.p1
+2,1,1,2021-02-17,total aluminum,85,Al ug/L,none,-162,z2.r1,z2.r1.p1
+2,1,1,2021-03-10,total aluminum,84,Al ug/L,none,-141,z2.r1,z2.r1.p1
+2,1,1,2021-04-15,total aluminum,39,Al ug/L,none,-105,z2.r1,z2.r1.p1
+2,1,1,2021-06-21,total aluminum,13,Al ug/L,none,-38,z2.r1,z2.r1.p1
+2,1,1,2021-07-13,total aluminum,27,Al ug/L,none,-16,z2.r1,z2.r1.p1
+2,1,1,2021-08-10,total aluminum,13,Al ug/L,none,12,z2.r1,z2.r1.p1
+2,1,1,2021-09-17,total aluminum,16,Al ug/L,none,50,z2.r1,z2.r1.p1
+2,1,1,2021-10-15,total aluminum,21,Al ug/L,none,78,z2.r1,z2.r1.p1
+2,1,1,2021-11-10,total aluminum,18,Al ug/L,none,104,z2.r1,z2.r1.p1
+2,1,1,2021-12-03,total aluminum,23,Al ug/L,none,127,z2.r1,z2.r1.p1
+2,1,1,2022-01-28,total aluminum,38,Al ug/L,none,183,z2.r1,z2.r1.p1
+2,1,1,2022-02-15,total aluminum,36,Al ug/L,none,201,z2.r1,z2.r1.p1
+2,1,1,2022-03-24,total aluminum,38,Al ug/L,none,238,z2.r1,z2.r1.p1
+2,1,1,2022-04-22,total aluminum,31,Al ug/L,none,267,z2.r1,z2.r1.p1
+2,1,1,2022-05-16,total aluminum,20,Al ug/L,none,291,z2.r1,z2.r1.p1
+2,1,1,2022-06-16,total aluminum,12,Al ug/L,none,322,z2.r1,z2.r1.p1
+2,1,1,2022-07-06,total aluminum,12,Al ug/L,none,342,z2.r1,z2.r1.p1
+2,1,1,2022-08-31,total aluminum,43,Al ug/L,none,398,z2.r1,z2.r1.p1
+2,1,1,2022-10-03,total aluminum,13,Al ug/L,none,431,z2.r1,z2.r1.p1
+2,1,1,2022-10-31,total aluminum,11,Al ug/L,none,459,z2.r1,z2.r1.p1
+2,1,1,2022-12-13,total aluminum,21,Al ug/L,none,502,z2.r1,z2.r1.p1
+2,1,2,2018-12-17,total aluminum,200,Al ug/L,none,-955,z2.r1,z2.r1.p2
+2,1,2,2019-01-25,total aluminum,170,Al ug/L,none,-916,z2.r1,z2.r1.p2
+2,1,2,2019-02-19,total aluminum,110,Al ug/L,none,-891,z2.r1,z2.r1.p2
+2,1,2,2019-03-12,total aluminum,110,Al ug/L,none,-870,z2.r1,z2.r1.p2
+2,1,2,2019-04-26,total aluminum,160,Al ug/L,none,-825,z2.r1,z2.r1.p2
+2,1,2,2019-05-28,total aluminum,69,Al ug/L,none,-793,z2.r1,z2.r1.p2
+2,1,2,2019-06-19,total aluminum,54,Al ug/L,none,-771,z2.r1,z2.r1.p2
+2,1,2,2019-07-26,total aluminum,33,Al ug/L,none,-734,z2.r1,z2.r1.p2
+2,1,2,2019-08-19,total aluminum,30,Al ug/L,none,-710,z2.r1,z2.r1.p2
+2,1,2,2019-09-17,total aluminum,44,Al ug/L,none,-681,z2.r1,z2.r1.p2
+2,1,2,2019-10-23,total aluminum,43,Al ug/L,none,-645,z2.r1,z2.r1.p2
+2,1,2,2019-11-22,total aluminum,75,Al ug/L,none,-615,z2.r1,z2.r1.p2
+2,1,2,2019-12-27,total aluminum,150,Al ug/L,none,-580,z2.r1,z2.r1.p2
+2,1,2,2020-01-24,total aluminum,100,Al ug/L,none,-552,z2.r1,z2.r1.p2
+2,1,2,2020-02-19,total aluminum,73,Al ug/L,none,-526,z2.r1,z2.r1.p2
+2,1,2,2020-03-20,total aluminum,56,Al ug/L,none,-496,z2.r1,z2.r1.p2
+2,1,2,2020-04-15,total aluminum,60,Al ug/L,none,-470,z2.r1,z2.r1.p2
+2,1,2,2020-05-12,total aluminum,49,Al ug/L,none,-443,z2.r1,z2.r1.p2
+2,1,2,2020-06-16,total aluminum,23,Al ug/L,none,-408,z2.r1,z2.r1.p2
+2,1,2,2020-07-21,total aluminum,22,Al ug/L,none,-373,z2.r1,z2.r1.p2
+2,1,2,2020-08-18,total aluminum,24,Al ug/L,none,-345,z2.r1,z2.r1.p2
+2,1,2,2020-09-14,total aluminum,27,Al ug/L,none,-318,z2.r1,z2.r1.p2
+2,1,2,2020-10-21,total aluminum,29,Al ug/L,none,-281,z2.r1,z2.r1.p2
+2,1,2,2020-11-17,total aluminum,54,Al ug/L,none,-254,z2.r1,z2.r1.p2
+2,1,2,2020-12-14,total aluminum,62,Al ug/L,none,-227,z2.r1,z2.r1.p2
+2,1,2,2021-01-12,total aluminum,87,Al ug/L,none,-198,z2.r1,z2.r1.p2
+2,1,2,2021-02-17,total aluminum,85,Al ug/L,none,-162,z2.r1,z2.r1.p2
+2,1,2,2021-03-10,total aluminum,84,Al ug/L,none,-141,z2.r1,z2.r1.p2
+2,1,2,2021-04-15,total aluminum,28,Al ug/L,none,-105,z2.r1,z2.r1.p2
+2,1,2,2021-06-21,total aluminum,15,Al ug/L,none,-38,z2.r1,z2.r1.p2
+2,1,2,2021-07-13,total aluminum,28,Al ug/L,none,-16,z2.r1,z2.r1.p2
+2,1,2,2021-08-10,total aluminum,15,Al ug/L,none,12,z2.r1,z2.r1.p2
+2,1,2,2021-09-17,total aluminum,16,Al ug/L,none,50,z2.r1,z2.r1.p2
+2,1,2,2021-10-15,total aluminum,17,Al ug/L,none,78,z2.r1,z2.r1.p2
+2,1,2,2021-11-10,total aluminum,16,Al ug/L,none,104,z2.r1,z2.r1.p2
+2,1,2,2021-12-03,total aluminum,24,Al ug/L,none,127,z2.r1,z2.r1.p2
+2,1,2,2022-01-28,total aluminum,39,Al ug/L,none,183,z2.r1,z2.r1.p2
+2,1,2,2022-02-15,total aluminum,36,Al ug/L,none,201,z2.r1,z2.r1.p2
+2,1,2,2022-03-24,total aluminum,37,Al ug/L,none,238,z2.r1,z2.r1.p2
+2,1,2,2022-04-22,total aluminum,30,Al ug/L,none,267,z2.r1,z2.r1.p2
+2,1,2,2022-05-16,total aluminum,20,Al ug/L,none,291,z2.r1,z2.r1.p2
+2,1,2,2022-06-16,total aluminum,14,Al ug/L,none,322,z2.r1,z2.r1.p2
+2,1,2,2022-07-06,total aluminum,12,Al ug/L,none,342,z2.r1,z2.r1.p2
+2,1,2,2022-08-31,total aluminum,52,Al ug/L,none,398,z2.r1,z2.r1.p2
+2,1,2,2022-10-03,total aluminum,15,Al ug/L,none,431,z2.r1,z2.r1.p2
+2,1,2,2022-10-31,total aluminum,9.4,Al ug/L,none,459,z2.r1,z2.r1.p2
+2,1,2,2022-12-13,total aluminum,23,Al ug/L,none,502,z2.r1,z2.r1.p2
+2,1,3,2018-12-17,total aluminum,210,Al ug/L,none,-955,z2.r1,z2.r1.p3
+2,1,3,2019-01-25,total aluminum,170,Al ug/L,none,-916,z2.r1,z2.r1.p3
+2,1,3,2019-02-19,total aluminum,110,Al ug/L,none,-891,z2.r1,z2.r1.p3
+2,1,3,2019-03-12,total aluminum,110,Al ug/L,none,-870,z2.r1,z2.r1.p3
+2,1,3,2019-04-26,total aluminum,170,Al ug/L,none,-825,z2.r1,z2.r1.p3
+2,1,3,2019-05-28,total aluminum,70,Al ug/L,none,-793,z2.r1,z2.r1.p3
+2,1,3,2019-06-19,total aluminum,57,Al ug/L,none,-771,z2.r1,z2.r1.p3
+2,1,3,2019-07-26,total aluminum,34,Al ug/L,none,-734,z2.r1,z2.r1.p3
+2,1,3,2019-08-19,total aluminum,30,Al ug/L,none,-710,z2.r1,z2.r1.p3
+2,1,3,2019-09-17,total aluminum,45,Al ug/L,none,-681,z2.r1,z2.r1.p3
+2,1,3,2019-10-23,total aluminum,44,Al ug/L,none,-645,z2.r1,z2.r1.p3
+2,1,3,2019-11-22,total aluminum,73,Al ug/L,none,-615,z2.r1,z2.r1.p3
+2,1,3,2019-12-27,total aluminum,150,Al ug/L,none,-580,z2.r1,z2.r1.p3
+2,1,3,2020-01-24,total aluminum,100,Al ug/L,none,-552,z2.r1,z2.r1.p3
+2,1,3,2020-02-19,total aluminum,73,Al ug/L,none,-526,z2.r1,z2.r1.p3
+2,1,3,2020-03-20,total aluminum,57,Al ug/L,none,-496,z2.r1,z2.r1.p3
+2,1,3,2020-04-15,total aluminum,59,Al ug/L,none,-470,z2.r1,z2.r1.p3
+2,1,3,2020-05-12,total aluminum,47,Al ug/L,none,-443,z2.r1,z2.r1.p3
+2,1,3,2020-06-16,total aluminum,24,Al ug/L,none,-408,z2.r1,z2.r1.p3
+2,1,3,2020-07-21,total aluminum,23,Al ug/L,none,-373,z2.r1,z2.r1.p3
+2,1,3,2020-08-18,total aluminum,24,Al ug/L,none,-345,z2.r1,z2.r1.p3
+2,1,3,2020-09-14,total aluminum,27,Al ug/L,none,-318,z2.r1,z2.r1.p3
+2,1,3,2020-10-21,total aluminum,30,Al ug/L,none,-281,z2.r1,z2.r1.p3
+2,1,3,2020-11-17,total aluminum,42,Al ug/L,none,-254,z2.r1,z2.r1.p3
+2,1,3,2020-12-14,total aluminum,63,Al ug/L,none,-227,z2.r1,z2.r1.p3
+2,1,3,2021-01-12,total aluminum,88,Al ug/L,none,-198,z2.r1,z2.r1.p3
+2,1,3,2021-02-17,total aluminum,83,Al ug/L,none,-162,z2.r1,z2.r1.p3
+2,1,3,2021-03-10,total aluminum,89,Al ug/L,none,-141,z2.r1,z2.r1.p3
+2,1,3,2021-04-15,total aluminum,29,Al ug/L,none,-105,z2.r1,z2.r1.p3
+2,1,3,2021-06-21,total aluminum,14,Al ug/L,none,-38,z2.r1,z2.r1.p3
+2,1,3,2021-07-13,total aluminum,24,Al ug/L,none,-16,z2.r1,z2.r1.p3
+2,1,3,2021-08-10,total aluminum,15,Al ug/L,none,12,z2.r1,z2.r1.p3
+2,1,3,2021-09-17,total aluminum,15,Al ug/L,none,50,z2.r1,z2.r1.p3
+2,1,3,2021-10-15,total aluminum,17,Al ug/L,none,78,z2.r1,z2.r1.p3
+2,1,3,2021-11-10,total aluminum,17,Al ug/L,none,104,z2.r1,z2.r1.p3
+2,1,3,2021-12-03,total aluminum,25,Al ug/L,none,127,z2.r1,z2.r1.p3
+2,1,3,2022-01-28,total aluminum,42,Al ug/L,none,183,z2.r1,z2.r1.p3
+2,1,3,2022-02-15,total aluminum,34,Al ug/L,none,201,z2.r1,z2.r1.p3
+2,1,3,2022-03-24,total aluminum,37,Al ug/L,none,238,z2.r1,z2.r1.p3
+2,1,3,2022-04-22,total aluminum,31,Al ug/L,none,267,z2.r1,z2.r1.p3
+2,1,3,2022-05-16,total aluminum,20,Al ug/L,none,291,z2.r1,z2.r1.p3
+2,1,3,2022-06-16,total aluminum,19,Al ug/L,none,322,z2.r1,z2.r1.p3
+2,1,3,2022-07-06,total aluminum,12,Al ug/L,none,342,z2.r1,z2.r1.p3
+2,1,3,2022-08-31,total aluminum,27,Al ug/L,none,398,z2.r1,z2.r1.p3
+2,1,3,2022-10-03,total aluminum,17,Al ug/L,none,431,z2.r1,z2.r1.p3
+2,1,3,2022-10-31,total aluminum,9.5,Al ug/L,none,459,z2.r1,z2.r1.p3
+2,1,3,2022-12-13,total aluminum,20,Al ug/L,none,502,z2.r1,z2.r1.p3
+2,1,4,2018-12-17,total aluminum,200,Al ug/L,none,-955,z2.r1,z2.r1.p4
+2,1,4,2018-12-17,temp,6.5,C ,none,-955,z2.r1,z2.r1.p4
+2,1,4,2019-01-25,total aluminum,170,Al ug/L,none,-916,z2.r1,z2.r1.p4
+2,1,4,2019-01-25,temp,7.1,C ,none,-916,z2.r1,z2.r1.p4
+2,1,4,2019-02-19,total aluminum,110,Al ug/L,none,-891,z2.r1,z2.r1.p4
+2,1,4,2019-02-19,temp,4.5,C ,none,-891,z2.r1,z2.r1.p4
+2,1,4,2019-03-12,total aluminum,110,Al ug/L,none,-870,z2.r1,z2.r1.p4
+2,1,4,2019-03-12,temp,4.8,C ,none,-870,z2.r1,z2.r1.p4
+2,1,4,2019-04-26,total aluminum,160,Al ug/L,none,-825,z2.r1,z2.r1.p4
+2,1,4,2019-04-26,temp,6.6,C ,none,-825,z2.r1,z2.r1.p4
+2,1,4,2019-05-28,total aluminum,67,Al ug/L,none,-793,z2.r1,z2.r1.p4
+2,1,4,2019-05-28,temp,10.8,C ,none,-793,z2.r1,z2.r1.p4
+2,1,4,2019-06-19,total aluminum,55,Al ug/L,none,-771,z2.r1,z2.r1.p4
+2,1,4,2019-06-19,temp,13.6,C ,none,-771,z2.r1,z2.r1.p4
+2,1,4,2019-07-26,total aluminum,33,Al ug/L,none,-734,z2.r1,z2.r1.p4
+2,1,4,2019-07-26,temp,18.4,C ,none,-734,z2.r1,z2.r1.p4
+2,1,4,2019-08-19,total aluminum,31,Al ug/L,none,-710,z2.r1,z2.r1.p4
+2,1,4,2019-08-19,temp,20.4,C ,none,-710,z2.r1,z2.r1.p4
+2,1,4,2019-09-17,total aluminum,45,Al ug/L,none,-681,z2.r1,z2.r1.p4
+2,1,4,2019-09-17,temp,17.1,C ,none,-681,z2.r1,z2.r1.p4
+2,1,4,2019-10-23,total aluminum,50,Al ug/L,none,-645,z2.r1,z2.r1.p4
+2,1,4,2019-10-23,temp,13.9,C ,none,-645,z2.r1,z2.r1.p4
+2,1,4,2019-11-22,total aluminum,70,Al ug/L,none,-615,z2.r1,z2.r1.p4
+2,1,4,2019-11-22,temp,10.9,C ,none,-615,z2.r1,z2.r1.p4
+2,1,4,2019-12-27,total aluminum,140,Al ug/L,none,-580,z2.r1,z2.r1.p4
+2,1,4,2019-12-27,temp,5.4,C ,none,-580,z2.r1,z2.r1.p4
+2,1,4,2020-01-24,total aluminum,98,Al ug/L,none,-552,z2.r1,z2.r1.p4
+2,1,4,2020-01-24,temp,4.2,C ,none,-552,z2.r1,z2.r1.p4
+2,1,4,2020-02-19,total aluminum,75,Al ug/L,none,-526,z2.r1,z2.r1.p4
+2,1,4,2020-02-19,temp,4.1,C ,none,-526,z2.r1,z2.r1.p4
+2,1,4,2020-03-20,total aluminum,57,Al ug/L,none,-496,z2.r1,z2.r1.p4
+2,1,4,2020-03-20,temp,4.4,C ,none,-496,z2.r1,z2.r1.p4
+2,1,4,2020-04-15,total aluminum,62,Al ug/L,none,-470,z2.r1,z2.r1.p4
+2,1,4,2020-04-15,temp,6.1,C ,none,-470,z2.r1,z2.r1.p4
+2,1,4,2020-05-12,total aluminum,45,Al ug/L,none,-443,z2.r1,z2.r1.p4
+2,1,4,2020-05-12,temp,8.7,C ,none,-443,z2.r1,z2.r1.p4
+2,1,4,2020-06-16,total aluminum,25,Al ug/L,none,-408,z2.r1,z2.r1.p4
+2,1,4,2020-06-16,temp,14.9,C ,none,-408,z2.r1,z2.r1.p4
+2,1,4,2020-07-21,total aluminum,23,Al ug/L,none,-373,z2.r1,z2.r1.p4
+2,1,4,2020-07-21,temp,19.3,C ,none,-373,z2.r1,z2.r1.p4
+2,1,4,2020-08-18,total aluminum,25,Al ug/L,none,-345,z2.r1,z2.r1.p4
+2,1,4,2020-08-18,temp,21.9,C ,none,-345,z2.r1,z2.r1.p4
+2,1,4,2020-09-14,total aluminum,24,Al ug/L,none,-318,z2.r1,z2.r1.p4
+2,1,4,2020-09-14,temp,19.6,C ,none,-318,z2.r1,z2.r1.p4
+2,1,4,2020-10-21,total aluminum,30,Al ug/L,none,-281,z2.r1,z2.r1.p4
+2,1,4,2020-11-17,total aluminum,42,Al ug/L,none,-254,z2.r1,z2.r1.p4
+2,1,4,2020-11-17,temp,11.3,C ,none,-254,z2.r1,z2.r1.p4
+2,1,4,2020-12-14,total aluminum,55,Al ug/L,none,-227,z2.r1,z2.r1.p4
+2,1,4,2020-12-14,temp,9.1,C ,none,-227,z2.r1,z2.r1.p4
+2,1,4,2021-01-12,total aluminum,91,Al ug/L,none,-198,z2.r1,z2.r1.p4
+2,1,4,2021-01-12,temp,5,C ,none,-198,z2.r1,z2.r1.p4
+2,1,4,2021-02-17,total aluminum,88,Al ug/L,none,-162,z2.r1,z2.r1.p4
+2,1,4,2021-02-17,temp,4.4,C ,none,-162,z2.r1,z2.r1.p4
+2,1,4,2021-03-10,total aluminum,83,Al ug/L,none,-141,z2.r1,z2.r1.p4
+2,1,4,2021-03-10,temp,4.9,C ,none,-141,z2.r1,z2.r1.p4
+2,1,4,2021-04-15,total aluminum,29,Al ug/L,none,-105,z2.r1,z2.r1.p4
+2,1,4,2021-04-15,temp,6.9,C ,none,-105,z2.r1,z2.r1.p4
+2,1,4,2021-06-21,total aluminum,14,Al ug/L,none,-38,z2.r1,z2.r1.p4
+2,1,4,2021-06-21,temp,17.5,C ,none,-38,z2.r1,z2.r1.p4
+2,1,4,2021-07-13,total aluminum,22,Al ug/L,none,-16,z2.r1,z2.r1.p4
+2,1,4,2021-07-13,temp,19.4,C ,none,-16,z2.r1,z2.r1.p4
+2,1,4,2021-08-10,total aluminum,12,Al ug/L,none,12,z2.r1,z2.r1.p4
+2,1,4,2021-08-10,temp,21.4,C ,none,12,z2.r1,z2.r1.p4
+2,1,4,2021-09-17,total aluminum,17,Al ug/L,none,50,z2.r1,z2.r1.p4
+2,1,4,2021-09-17,temp,19.7,C ,none,50,z2.r1,z2.r1.p4
+2,1,4,2021-10-15,total aluminum,17,Al ug/L,none,78,z2.r1,z2.r1.p4
+2,1,4,2021-10-15,temp,17.6,C ,none,78,z2.r1,z2.r1.p4
+2,1,4,2021-11-10,total aluminum,17,Al ug/L,none,104,z2.r1,z2.r1.p4
+2,1,4,2021-11-10,temp,12.7,C ,none,104,z2.r1,z2.r1.p4
+2,1,4,2021-12-03,total aluminum,23,Al ug/L,none,127,z2.r1,z2.r1.p4
+2,1,4,2021-12-03,temp,9.9,C ,none,127,z2.r1,z2.r1.p4
+2,1,4,2022-01-28,total aluminum,43,Al ug/L,none,183,z2.r1,z2.r1.p4
+2,1,4,2022-01-28,temp,5.2,C ,none,183,z2.r1,z2.r1.p4
+2,1,4,2022-02-15,total aluminum,39,Al ug/L,none,201,z2.r1,z2.r1.p4
+2,1,4,2022-02-15,temp,10.2,C ,none,201,z2.r1,z2.r1.p4
+2,1,4,2022-03-24,total aluminum,41,Al ug/L,none,238,z2.r1,z2.r1.p4
+2,1,4,2022-03-24,temp,10,C ,none,238,z2.r1,z2.r1.p4
+2,1,4,2022-04-22,total aluminum,32,Al ug/L,none,267,z2.r1,z2.r1.p4
+2,1,4,2022-04-22,temp,7.8,C ,none,267,z2.r1,z2.r1.p4
+2,1,4,2022-05-16,total aluminum,23,Al ug/L,none,291,z2.r1,z2.r1.p4
+2,1,4,2022-05-16,temp,10.2,C ,none,291,z2.r1,z2.r1.p4
+2,1,4,2022-06-16,total aluminum,18,Al ug/L,none,322,z2.r1,z2.r1.p4
+2,1,4,2022-06-16,temp,16.7,C ,none,322,z2.r1,z2.r1.p4
+2,1,4,2022-07-06,total aluminum,11,Al ug/L,none,342,z2.r1,z2.r1.p4
+2,1,4,2022-07-06,temp,18.1,C ,none,342,z2.r1,z2.r1.p4
+2,1,4,2022-08-31,total aluminum,31,Al ug/L,none,398,z2.r1,z2.r1.p4
+2,1,4,2022-08-31,temp,22.2,C ,none,398,z2.r1,z2.r1.p4
+2,1,4,2022-10-03,total aluminum,16,Al ug/L,none,431,z2.r1,z2.r1.p4
+2,1,4,2022-10-03,temp,16.5,C ,none,431,z2.r1,z2.r1.p4
+2,1,4,2022-10-31,total aluminum,10,Al ug/L,none,459,z2.r1,z2.r1.p4
+2,1,4,2022-10-31,temp,14.8,C ,none,459,z2.r1,z2.r1.p4
+2,1,4,2022-12-13,total aluminum,47,Al ug/L,none,502,z2.r1,z2.r1.p4
+2,1,4,2022-12-13,temp,7.6,C ,none,502,z2.r1,z2.r1.p4

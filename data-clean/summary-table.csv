@@ -1,0 +1,7 @@
+param,med,lq,uq,unit
+Dissolved Chloride,8.4,7.9,9.4,mg L^-1^
+Dissolved Inorganic Carbon,4.4,4.1,4.9,mg C L^-1^
+Free Chlorine,0.65,0.16,0.755,mg L^-1^
+Total Organic Carbon,1.8,1.7,2,mg C L^-1^
+pH,7.32,7.18,7.43,NA
+Turbidity,0.14,0.11,0.19,NTU

@@ -1,0 +1,68 @@
+---
+title: "*Supplementary information for:* Sentinel pipe racks quantify orthophosphate's effect on lead release into drinking water"
+author: "Benjamin F. Trueman^§,^\\*, Wendy H. Krkošek^†^, and Graham A. Gagnon^§^"
+date: "^§^Centre for Water Resources Studies, Department of Civil & Resource Engineering, Dalhousie University, 1360 Barrington St., Halifax, Nova Scotia, Canada B3H 4R2  \n&nbsp;  \n^†^Halifax Water, 450 Cowie Hill Rd., Halifax, Nova Scotia, Canada,  B3P 2V3  \n&nbsp;   \n&nbsp;*Corresponding author  \n&nbsp;E-mail: benjamin.trueman@dal.ca    \n&nbsp;Tel:902.494.6070  \n&nbsp;Fax: 902.494.3105"
+output:
+  word_document:
+    reference_docx: StylesTemplate.docx
+bibliography: references.bib
+csl: environmental-science-and-technology.csl
+---
+
+```{r setup, include=FALSE}
+here::i_am("Rmarkdown/paper.Rmd")
+knitr::opts_chunk$set(echo = FALSE, dev = "png", dpi = 600)
+options(dplyr.summarise.inform = FALSE)
+source(here::here("R/03-inform-prior-ml.R"))
+source(here::here("R/04-model-ml.R"))
+library("posterior")
+wq <- read_csv(here::here("data-clean/summary-table.csv"))
+wq_si <- read_csv(here::here("data-clean/summary-table-si.csv"))
+```
+
+```{r functions}
+# this is the opposite of fill()
+
+unfill_vec <- function(x, placeholder = "") {
+  same <- x == dplyr::lag(x)
+  ifelse(!is.na(same) & same, placeholder, as.character(x))
+}
+
+```
+
+This document has 5 pages, 5 figures, and 1 table.
+
+```{r summary-wq-si}
+options(knitr.kable.NA = "")
+wq_si %>% 
+  transmute(
+    Parameter = unfill_vec(param),
+    Unit = unfill_vec(str_replace(unit, "ug", "µg")),
+    Zone = zone,
+    Median = round(med, 1), 
+    `Lower quartile` = round(lq, 1),
+    `Upper quartile` = round(uq, 1)
+  ) %>% 
+  knitr::kable(caption = "**Table S1.** Summary of water quality in pipe rack effluent, by zone.")
+
+```
+
+```{r figure-s1, fig.cap="**Figure S1.** An example of the pipe racks installed in Zones 1 and 2."}
+knitr::include_graphics(here::here("figures/figure-s1.jpg"))
+```
+
+```{r figure-s2, fig.cap="**Figure S2.** An example instruction sheet distributed to volunteer residents collecting point-of-use samples from sentinel homes."}
+knitr::include_graphics(here::here("figures/figure-s2.png"))
+```
+
+```{r figure-s3, fig.cap="**Figure S3. (a)** In the full (Zones 1 and 2) model, local multi-year smooths capturing the deviations of each series from the global and location-specific smooths. **(b)** Coagulation pH at the treatment plant supplying Zone 2."}
+knitr::include_graphics(here::here("figures/figure-s3.png"))
+```
+
+```{r figure-s4, fig.cap="**Figure S4.** In the Zone 1 model, local multi-year smooths capturing the deviations of each series from the global and seasonal smooths."}
+knitr::include_graphics(here::here("figures/figure-s4.png"))
+```
+
+```{r figure-s5, fig.cap="**Figure S5.** Total aluminum in pipe rack effluent."}
+knitr::include_graphics(here::here("figures/figure-s5.png"))
+```
