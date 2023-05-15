@@ -1,3 +1,3 @@
-# cct-monitoring-private
+# cct-monitoring
 
-This repo contains the material for an upcoming paper on sentinel lead pipe racks and sentinel homes in Halifax.
+This repo contains supporting material for the upcoming paper "Sentinel pipe racks quantify orthophosphate's effect on lead release into drinking water".
