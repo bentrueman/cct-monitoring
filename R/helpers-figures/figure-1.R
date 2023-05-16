@@ -78,7 +78,6 @@ fig_1a <- preds_loc %>%
   bind_rows(mutate(preds_global, location = "global")) %>% 
   ggplot(aes(date_numeric, smooth_estimate)) +
   facet_wrap(vars(location), labeller = striplabs, ncol = 1) + 
-  # scale_color_manual(values = palette[6], labels = label_parse()) +
   scale_color_manual(values = palette[6]) +
   geom_vline(
     data = tibble(location = c("global", "z2.r1"), date_numeric = c(0, ph_increase)),
@@ -99,7 +98,6 @@ fig_1a <- preds_loc %>%
           )
         )
     },
-    # aes(col = "frac(d*'['*Pb*']',dt)<0")
     aes(col = "d[Pb]/dt < 0")
   ) +
   geom_rug(

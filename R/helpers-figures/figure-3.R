@@ -58,7 +58,6 @@ fig_3a <- preds_global %>%
           )
         )
     },
-    # aes(col = "frac(d*'['*Pb*']',dt)!=0")
     aes(col = "d*'['*Pb*']'*'/'*dt!=0")
   ) +
   add_rug(date) +

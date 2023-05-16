@@ -36,7 +36,6 @@ p1 <- tibble(
   scale_colour_manual(values = c("black", palette[6], "black")) +
   scale_fill_manual(values = c("black", palette[6], "black")) +
   guides(colour = "none", fill = "none") +
-  # scale_y_discrete(expand  = expansion(add = c(0.3, 0))) +
   labs(
     x = "% change in [Pb]",
     y = "Density"
@@ -58,7 +57,6 @@ p2 <- model_in %>%
     litre = as.numeric(str_extract(litre, "\\d"))
   ) %>% 
   clean_names() %>% 
-  # ggplot(aes(value_1_before, value_2_after, col = litre)) +
   ggplot(aes(value_1_before, value_2_after)) +
   annotate("label", 5, 30, label = "Litre 1", label.size = 0, alpha = .8, size = 2.5) +
   geom_point(
@@ -105,8 +103,6 @@ p2 <- model_in %>%
   ) +
   scale_x_log10() + 
   scale_y_log10() + 
-  # scale_color_gradient(high = "black", low = "grey", labels = c(1:4, "Flushed"), trans = "reverse") +
-  # scale_color_gradientn(colours = palette[-6], labels = c(1:4, "Flushed"), trans = "reverse") +
   theme(
     axis.title.x = ggtext::element_markdown(),
     axis.title.y = ggtext::element_markdown()
