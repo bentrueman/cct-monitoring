@@ -1,5 +1,5 @@
 ---
-title: "*Supplementary information for:* Sentinel pipe racks quantify orthophosphate's effect on lead release into drinking water"
+title: "*Supplementary information for:* Sentinel lead pipe racks quantify orthophosphate's dose-response in drinking water"
 author: "Benjamin F. Trueman^§,^\\*, Wendy H. Krkošek^†^, and Graham A. Gagnon^§^"
 date: "^§^Centre for Water Resources Studies, Department of Civil & Resource Engineering, Dalhousie University, 1360 Barrington St., Halifax, Nova Scotia, Canada B3H 4R2  \n&nbsp;  \n^†^Halifax Water, 450 Cowie Hill Rd., Halifax, Nova Scotia, Canada,  B3P 2V3  \n&nbsp;   \n&nbsp;*Corresponding author  \n&nbsp;E-mail: benjamin.trueman@dal.ca    \n&nbsp;Tel:902.494.6070  \n&nbsp;Fax: 902.494.3105"
 output:

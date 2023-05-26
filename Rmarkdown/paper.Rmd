@@ -110,7 +110,7 @@ An accredited laboratory measured lead, iron, manganese, zinc, and aluminum [@ep
 
 ## Data analysis  
 
-We used R [@R], and a collection of contributed packages [@rmarkdown; @tidyverse; @readxl; @janitor; @assertr; @brms; @ggdist; @glue; @posterior; @testthat; @bayesplot; @patchwork; @ggtext; @devtools; @mgcv], to analyze and visualize the data. The code and data necessary to reproduce the main results of the paper are available online [@cct_monitoring].
+We used R [@R], and a collection of contributed packages [@rmarkdown; @tidyverse; @readxl; @janitor; @assertr; @brms; @ggdist; @glue; @posterior; @testthat; @bayesplot; @patchwork; @ggtext; @devtools; @mgcv], to analyze and visualize the data. Materials (R code and data) necessary to reproduce the main results of the paper are available online [@cct_monitoring].
 
 ### Sentinel pipe racks
 
@@ -154,8 +154,8 @@ $$
 (2)~~
 \begin{align}
 \text{likelihood:} \\
-log(y_i) | censored = 0 \sim T(\mu_i, \sigma) \\
-log(y_i) | censored = 1 \sim T\text{-}CDF(\mu_i, \sigma) \\
+log(y_i) | censored = 0 \sim T(\mu_i, \sigma, \nu) \\
+log(y_i) | censored = 1 \sim T\text{-}CDF(\mu_i, \sigma, \nu) \\
 \\
 \text{model for }\mu_i\text{:} \\
 \mu_i = \alpha_{site_j} + \gamma_{sample_k} + \beta R \\
@@ -176,7 +176,7 @@ $$
 
 where $T$ again denotes the Student t-distribution with mean $\mu$, standard deviation $\sigma$, and degrees-of-freedom $\nu$; $censored$ is a binary variable indicating whether the sample concentration was observed or left-censored (i.e., a nondetect). The parameters $\alpha_{site_j}$ and $\gamma_{sample_k}$ are random intercepts describing each unique site/profile litre combination, $R$ is a binary variable indicating the sampling round (i.e., before/after the dose increase), and $\beta$ is the difference between rounds. $Half\text{-}Cauchy$, and $T \text{-} CDF$ represent the half-Cauchy distribution and the Student t cumulative distribution function (i.e., $P(X \leq x)$). $T \text{-} CDF$ quantifies the probability that $y_i$ is less than the censoring limit on the log scale. Nondetects, then, inform the model without the need to replace them with imputed values.
 
-The priors on $\bar{\alpha}$, $\bar{\gamma}$, $\sigma_{\alpha}$ , and $\sigma_{\gamma}$ are weakly informative, meaning that they discourage unrealistic parameter estimates [@gelman_bayes_2009]. The prior on $\beta$---the difference between lead concentration at the two orthophosphate doses---was determined using posterior predictions from the generalized additive model of pipe loop data, as described in the results section.
+The priors on $\bar{\alpha}$, $\sigma_{\alpha}$ , and $\sigma_{\gamma}$ are weakly informative, meaning that they discourage unrealistic parameter estimates [@gelman_bayes_2009]. The prior on $\beta$---the difference between lead concentration at the two orthophosphate doses---was determined using posterior predictions from the generalized additive model of pipe loop data, as described in the Results and discussion.
 
 # Results and discussion  
 
