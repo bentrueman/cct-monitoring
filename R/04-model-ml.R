@@ -33,6 +33,7 @@ fit_brm <- function(path, ...) {
     iter = 4000,
     file = here::here(path),
     file_refit = "on_change",
+    backend = "cmdstanr",
     ...
   )
 }

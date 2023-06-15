@@ -14,6 +14,7 @@ make_model_in <- function(x, ...) {
   x %>% 
     group_by(zone, rack, pipe_number) %>% 
     mutate(
+      series = as.factor(series),
       date_yday = yday(date) / if_else(leap_year(date), 366, 365),
       d_x = date_numeric - lag(date_numeric),
       d_x = replace_na(d_x, 0),
@@ -27,10 +28,11 @@ make_model_in <- function(x, ...) {
 
 data <- read_csv(here::here("data-clean/model-in-gam.csv")) %>% 
   # add d_x variable
-  make_model_in(log_value = log(value))
+  make_model_in(log_value = log(value), location = as.factor(location))
 
 data_full <- filter(data, date <= "2022-05-16") # for Zone 1 and 2 model
-data_z1 <- filter(data, zone == 1) # for Zone 1 model
+data_z1 <- filter(data, zone == 1) %>%  # for Zone 1 model
+  mutate(series = droplevels(series))
 
 # --------------------- inputs ---------------------
 

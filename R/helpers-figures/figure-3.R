@@ -10,7 +10,7 @@ p_dec_z1 <- as.Date("2022-05-16")
 
 epreds <- data_z1 %>%
   with(crossing(
-    series = unique(series),
+    series = fct_unique(series),
     date = seq(min(date), max(date), by = "1 week")
   )) %>% 
   mutate(
