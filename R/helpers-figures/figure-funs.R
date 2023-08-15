@@ -90,3 +90,78 @@ add_rug <- function(...) {
     inherit.aes = FALSE
   )
 }
+
+# plot XRD data:
+
+gg_xrd <- function(pipe, layers = 3, phases, data, standards) {
+  
+  panels <- layers + length(phases)
+  
+  layer_names <- paste0("L", seq_len(layers)) %>% 
+    # pad layer names with NAs to reach length of 4
+    c(rep(NA_character_, 4 - layers))
+  
+  phase_names <- c(phases, rep(NA_character_, 6 - length(phases)))
+  
+  xrd_list <- list(
+    filter(data, code == pipe, layer == layer_names[1]),
+    filter(data, code == pipe, layer == layer_names[2]),
+    filter(data, code == pipe, layer == layer_names[3]),
+    filter(data, code == pipe, layer == layer_names[4]),
+    filter(standards, phase == phases[1]),
+    filter(standards, phase == phases[2]),
+    filter(standards, phase == phases[3]),
+    filter(standards, phase == phases[4]),
+    filter(standards, phase == phases[5]),
+    filter(standards, phase == phases[6])
+  )
+  
+  xrd_list <- xrd_list[map_lgl(xrd_list, ~ nrow(.x) > 0)]
+  
+  xrd_list %>% 
+    set_names(letters[1:panels]) %>% 
+    bind_rows(.id = "facet") %>% 
+    ggplot(aes(two_theta, intensity)) + 
+    facet_wrap(~ facet, ncol = 1, scales = "free_y") + 
+    geom_line(data = function(data) data %>% filter(is.na(phase)), linewidth = .2) + 
+    geom_segment(
+      data = function(data) data %>% filter(!is.na(phase)),
+      aes(x = two_theta, xend = two_theta, y = 0, yend = intensity), 
+      col = "deepskyblue4", linewidth = .25
+    ) +
+    geom_text(
+      data = function(data) data %>% 
+        filter(!is.na(phase)) %>% 
+        distinct(phase, facet),
+      aes(x = 55, y = .75, label = phase), 
+      col = "deepskyblue4", size = 3
+    ) +
+    geom_text(
+      data = function(data) data %>% 
+        filter(is.na(phase)) %>% 
+        group_by(phase, facet, layer) %>% 
+        summarize(y = 1.1 * intensity[which.max(two_theta)]),
+      aes(x = 73, y = y, label = layer), size = 2.5
+    ) +
+    labs(
+      x = expression("2"*theta~"(Cu K"*alpha*")"),
+      y = NULL,
+      col = NULL
+    ) + 
+    theme(
+      strip.text = element_blank(),
+      axis.text.y = element_blank(),
+      axis.line.y = element_blank(),
+      axis.ticks.y = element_blank(),
+      legend.position = "none"
+    ) +
+    geom_rug(
+      data = function(data) data %>% 
+        with(tibble(two_theta = seq(10, 70, by = 5))) %>% 
+        mutate(facet = letters[panels]), 
+      aes(x = two_theta),
+      length = unit(.04, "cm"),
+      sides = "b", outside = TRUE, inherit.aes = FALSE
+    ) + 
+    coord_cartesian(clip = "off")
+}

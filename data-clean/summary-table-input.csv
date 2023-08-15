@@ -10,6 +10,7 @@ organic carbon,Total Organic Carbon,C mg/L,mg C L^-1^
 orp,ORP,mv,mV
 orthophosphate (phase 1),Orthophosphate (phase 1),P mg/L,mg P L^-1^
 orthophosphate (phase 2),Orthophosphate (phase 2),P mg/L,mg P L^-1^
+orthophosphate (phase 3),Orthophosphate (phase 3),P mg/L,mg P L^-1^
 ph,pH,NA,NA
 temp,Temperature,C,C
 total alkalinity,Total Alkalinity,Total as CaCO3 mg/L,mg CaCO~3~ L^-1^
@@ -19,3 +20,4 @@ total lead,Total Lead,Pb ug/L,ug L^-1^
 total manganese,Total Manganese,Mn ug/L,ug L^-1^
 total zinc,Total Zinc,Zn ug/L,ug L^-1^
 turb,Turbidity,NTU,NTU
+Hardness,Hardness,"mg/L total, as CaCO3",mg CaCO~3~ L^-1^

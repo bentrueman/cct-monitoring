@@ -85,7 +85,7 @@ ppc_stat(1 * (model_in$censored == "left"), 1 * (post < log(.5)), binwidth = .02
 
 # -------------------- diagnostic stats --------------------
 
-draws <- as_draws_df(model_gam) %>% 
+draws <- as_draws_df(model) %>% 
   summarize_draws()
 
 test_that("rhats are all less than 1.05", {

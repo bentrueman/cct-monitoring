@@ -38,7 +38,17 @@ striplabs <- as_labeller(c(
 
 wq <- read_csv(here::here("data-clean/data-wq-si.csv"))
 
-finished_ortho <- read_csv("data-clean/finished-water-orthophosphate-zones-1-2.csv")
+finished_ortho <- read_csv(here::here("data-clean/finished-water-orthophosphate-zones-1-2.csv"))
+
+temp_z1_r2 <- read_csv(here::here("data-clean/temperature-ds-z1-r2.csv"))
+
+temp_flushed <- read_csv(here::here("data-clean/flushed-sample-temp.csv"))
+
+# for XRD data:
+
+xrd <- read_csv(here::here("data-clean/xrd-cleaned.csv"))
+
+stds <- read_csv(here::here("data-clean/xrd-standards.csv")) 
 
 # --------------------- figures ---------------------
 
@@ -53,9 +63,10 @@ source("R/helpers-figures/figure-toc.R")
 
 # supplement
 
-source("R/helpers-figures/figure-s3.R")
+source("R/helpers-figures/figure-s2.R")
 source("R/helpers-figures/figure-s4.R")
 source("R/helpers-figures/figure-s5.R")
+source("R/helpers-figures/figure-s6.R")
 
 #------------------ session info ------------------
 

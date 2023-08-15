@@ -3,23 +3,24 @@
 
 # --------------------- figure S5 ---------------------
 
-figure_s5 <- wq %>%
-  filter(param == "total aluminum", zone == 2, date < "2022-01-01") %>% 
+striplabs <- as_labeller(c("1" = "Zone 1 (Rack 1)", "2" = "Zone 1 (Rack 2)"))
+
+figure_s5 <- smooths[[3]] %>%
   mutate(
-    year = as.factor(year(date)),
-    yday = yday(date) / if_else(leap_year(date), 366, 365),
-    yday = 365 * yday + as.Date("2021-12-31")
-  ) %>% 
-  ggplot(aes(yday, value, col = year, group = interaction(series, year))) + 
-  scale_x_date(date_labels = "%b") +
-  scale_color_manual(values = palette[c(3,1,4,6)]) +
-  geom_point() +
-  geom_line() + 
-  ylim(c(0, 210)) +
+    date = date_numeric + p_inc_z1,
+    rack = as.numeric(str_extract(series, "(?<=r)\\d")),
+    pipe = str_extract(series, "(?<=p)\\d$")
+  ) %>%
+  ggplot(aes(date, estimate__, col = pipe)) +
+  facet_wrap(vars(rack), labeller = striplabs) +
+  scale_y_continuous(expand = expansion(add = .1)) +
+  scale_color_manual(values = palette[c(1,3,4,6)]) +
+  geom_line() +
+  add_rug(date) +
   labs(
     x = NULL,
-    y = expression("[Al] (µg L"^-1*")"),
-    col = NULL
+    y = "Partial effect",
+    col = "Pipe"
   )
 
 ggsave("figures/figure-s5.png", figure_s5, dev = "png", dpi = 600, width = 6.5, height = 3)
