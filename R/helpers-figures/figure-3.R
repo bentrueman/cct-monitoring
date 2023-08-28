@@ -6,6 +6,21 @@
 p_inc_z1 <- as.Date("2020-11-30")
 p_dec_z1 <- as.Date("2022-05-16")
 
+# additional temperature data:
+
+temp_ds <- temp_z1_r2 %>% 
+  mutate(
+    date_yday_n = yday(collection_date) / if_else(leap_year(collection_date), 366, 365),
+    date_yday = as.Date("2021-12-31") + 365 * date_yday_n
+  )
+
+temp_flushed <- temp_flushed %>% 
+  mutate(
+    date_yday_n = yday(date) / if_else(leap_year(date), 366, 365),
+    date_yday = as.Date("2021-12-31") + 365 * date_yday_n,
+    value = temp_flushed
+  )
+
 # generate predictions
 
 epreds <- data_z1 %>%
@@ -144,44 +159,58 @@ fig_3d <- data_z1 %>%
     col = "Pipe"
   )
 
-fig_3e <- wq %>% 
+fig_3e <- wq %>%
   filter(param == "temp", zone == 1) %>% 
-  group_by(
+  mutate(
     date_yday_n = yday(date) / if_else(leap_year(date), 366, 365),
-    date_yday = as.Date("2021-12-31") + 365 * date_yday_n
+    date_yday = as.Date("2021-12-31") + 365 * date_yday_n,
+    rack = as.factor(paste0("Rack ", rack))
   ) %>% 
-  summarize(
-    min = min(value),
-    max = max(value),
-    value = median(value)
-  ) %>% 
-  ungroup() %>% 
-  ggplot(aes(date_yday, value)) + 
+  ggplot(aes(date_yday, value, shape = rack)) + 
   theme(
     axis.title.y = element_markdown(),
     legend.position = "right"
   ) +
   scale_x_date(date_labels = "%b") +
-  scale_color_manual(values = palette[1]) +
-  geom_errorbar(aes(ymin = min, ymax = max), width = 0, linewidth = .3) +
-  geom_point(shape = 16, alpha = .5) +
+  scale_color_manual(values = palette[c(2,6)]) +
+  geom_point(
+    data = temp_flushed,
+    aes(date_yday, value, col = "Point-of-use"),
+    inherit.aes = FALSE,
+    alpha = 0.5, size = 1.5,
+    shape = 16
+  ) +
+  geom_point(
+    data = temp_ds,
+    aes(date_yday, value, col = "Water main"),
+    inherit.aes = FALSE,
+    alpha = 0.5, size = 1.5,
+    shape = 16
+  ) +
+  geom_point(alpha = .2, size = 1.5) +
   geom_line(
     data = \(x) x %>% 
       mutate(
         cc = predict(
           mgcv::gam(
-            value ~ s(date_yday_n, bs = "cc"),
+            value ~ s(date_yday_n, bs = "cc", by = rack),
             method = "REML",
             knots = list(date_yday_n = c(0, 1))
           )
         )
       ),
-    aes(y = cc, col = "Cubic\nspline"),
-    linewidth = .8
+    aes(y = cc, linetype = rack),
+    linewidth = .3
+  ) +
+  guides(
+    col = guide_legend(override.aes = list(size = 2)),
+    shape = guide_legend(override.aes = list(size = 2))
   ) +
   labs(
     x = NULL,
     y = "Water<br>temperature (&deg;C)",
+    shape = NULL,
+    linetype = NULL,
     col = NULL
   )
 
@@ -189,4 +218,3 @@ figure_3 <- wrap_plots(fig_3a, fig_3b, fig_3c, fig_3d, fig_3e, design = "AD\nBD\
   plot_annotation(tag_levels = "a")
 
 ggsave("figures/figure-3.png", figure_3, dev = "png", dpi = 600, width = 6.5, height = 5)
-

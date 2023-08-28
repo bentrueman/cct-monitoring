@@ -8,18 +8,29 @@ library("assertr")
 
 wq <- read_csv("data-clean/data-wq.csv") %>% 
   mutate(
-    # phase 1 == 1 ppm PO4, phase 2 == 2 ppm PO4:
     param = case_when(
-      param == "orthophosphate" & date_numeric < 0 ~ "orthophosphate (phase 1)", 
-      param == "orthophosphate" & date_numeric >= 0 ~ "orthophosphate (phase 2)",
+      param == "orthophosphate" & date_numeric >= 532 & zone == 1 ~ "orthophosphate (phase 3)", # 1.5 mg PO4/L
+      param == "orthophosphate" & date_numeric >= 0 ~ "orthophosphate (phase 2)", # 2 mg PO4/L
+      param == "orthophosphate" & date_numeric < 0 ~ "orthophosphate (phase 1)", # 1 mg PO4/L
       TRUE ~ param
     )
   )
 
-input <- read_csv("data-clean/summary-table-input.csv")
+hardness <- read_csv("data-clean/hardness-z1-z2.csv") %>%
+  transmute(
+    zone, date,
+    value,
+    unit = paste(units, str_extract(param, "(?<=\\().+(?=\\))")),
+    param = str_extract(param, ".*?(?=\\s)"),
+    censored = "none"
+  )
+
+input <- read_csv("data-clean/summary-table-input.csv") # get units formatted for .Rmd 
 
 params_together <- c("dissolved inorganic carbon", "ph", "free cl", 
-                     "organic carbon", "dissolved chloride", "turb")
+                     "organic carbon", "dissolved chloride", "dissolved sulphate",
+                     "total alkalinity", "orthophosphate (phase 1)", "Hardness",
+                     "orthophosphate (phase 2)", "orthophosphate (phase 3)")
 
 remove_these <- c("collected volume", "do %")
 
@@ -41,16 +52,18 @@ summarize_wq <- function(x, ...) {
 # --------------------- summary table for paper ---------------------
 
 summary <- wq %>% 
+  bind_rows(hardness) %>% 
   filter(param %in% params_together) %>%
-  summarize_wq() %>% 
+  summarize_wq(zone) %>% 
   left_join(input) %>% 
-  select(param = param_table, med, lq, uq, unit = unit_table)
+  arrange(str_to_lower(param_table), zone) %>% 
+  select(param = param_table, zone, med, lq, uq, unit = unit_table)
 
 # --------------------- summary table for supplement (separate zones) ---------------------
 
 summary_si <- wq %>% 
   summarize_wq(zone) %>% 
-  filter(!param %in% remove_these) %>% 
+  filter(!param %in% c(remove_these, params_together)) %>% 
   left_join(input) %>% 
   select(param = param_table, zone, med, lq, uq, unit = unit_table)
 
@@ -58,5 +71,3 @@ summary_si <- wq %>%
 
 write_csv(summary, "data-clean/summary-table.csv")
 write_csv(summary_si, "data-clean/summary-table-si.csv")
-  
-  

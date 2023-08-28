@@ -18,7 +18,7 @@ priors <- c(
   set_prior(glue("normal({avg}, {stdev})"), "b"), # see inform-prior-ml.R
   prior(normal(0, 1), Intercept),
   prior(cauchy(0, 1), sd),
-  prior(normal(0, 1), sigma)
+  prior(normal(0, 0.5), sigma)
 )
 
 # -------------------- functions --------------------

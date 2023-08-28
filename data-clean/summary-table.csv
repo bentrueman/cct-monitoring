@@ -1,7 +1,22 @@
-param,med,lq,uq,unit
-Dissolved Chloride,8.4,7.9,9.4,mg L^-1^
-Dissolved Inorganic Carbon,4.4,4.1,4.9,mg C L^-1^
-Free Chlorine,0.65,0.16,0.755,mg L^-1^
-Total Organic Carbon,1.8,1.7,2,mg C L^-1^
-pH,7.32,7.18,7.43,NA
-Turbidity,0.14,0.11,0.19,NTU
+param,zone,med,lq,uq,unit
+Dissolved Chloride,1,8.4,7.85,9.2,mg L^-1^
+Dissolved Chloride,2,8.649999999999999,7.9,9.575,mg L^-1^
+Dissolved Inorganic Carbon,1,4.6,4.3,5,mg C L^-1^
+Dissolved Inorganic Carbon,2,3.7,3.3,4.3,mg C L^-1^
+Dissolved Sulfate,1,32,29,36,mg SO~4~ L^-1^
+Dissolved Sulfate,2,9.6,8.7,11,mg SO~4~ L^-1^
+Free Chlorine,1,0.51,0.1,0.74,mg L^-1^
+Free Chlorine,2,0.665,0.5925,0.7575000000000001,mg L^-1^
+Hardness,1,41.5,38.75,42.5,mg CaCO~3~ L^-1^
+Hardness,2,13,12,13.75,mg CaCO~3~ L^-1^
+Orthophosphate (phase 1),1,0.25,0.2,0.29,mg P L^-1^
+Orthophosphate (phase 1),2,0.29,0.2475,0.32,mg P L^-1^
+Orthophosphate (phase 2),1,0.545,0.51,0.58,mg P L^-1^
+Orthophosphate (phase 2),2,0.605,0.47,0.7,mg P L^-1^
+Orthophosphate (phase 3),1,0.48,0.45,0.51,mg P L^-1^
+pH,1,7.28,7.13,7.39,NA
+pH,2,7.38,7.26,7.55,NA
+Total Alkalinity,1,23,21,25,mg CaCO~3~ L^-1^
+Total Alkalinity,2,19,16,21,mg CaCO~3~ L^-1^
+Total Organic Carbon,1,1.8,1.7,2,mg C L^-1^
+Total Organic Carbon,2,1.8,1.8,2.1,mg C L^-1^

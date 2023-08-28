@@ -1,6 +1,6 @@
 ---
-title: "*Supplementary information for:* Sentinel lead pipe racks quantify orthophosphate's dose-response in drinking water"
-author: "Benjamin F. Trueman^§,^\\*, Wendy H. Krkošek^†^, and Graham A. Gagnon^§^"
+title: "*Supplementary information for:* Evaluating sentinel pipe racks for monitoring lead release and optimizing corrosion control"
+author: "Benjamin F. Trueman^§,^\\*, Javier A. Locsin^§^, Wendy H. Krkošek^†^, and Graham A. Gagnon^§^"
 date: "^§^Centre for Water Resources Studies, Department of Civil & Resource Engineering, Dalhousie University, 1360 Barrington St., Halifax, Nova Scotia, Canada B3H 4R2  \n&nbsp;  \n^†^Halifax Water, 450 Cowie Hill Rd., Halifax, Nova Scotia, Canada,  B3P 2V3  \n&nbsp;   \n&nbsp;*Corresponding author  \n&nbsp;E-mail: benjamin.trueman@dal.ca    \n&nbsp;Tel:902.494.6070  \n&nbsp;Fax: 902.494.3105"
 output:
   word_document:
@@ -16,8 +16,9 @@ options(dplyr.summarise.inform = FALSE)
 source(here::here("R/03-inform-prior-ml.R"))
 source(here::here("R/04-model-ml.R"))
 library("posterior")
-wq <- read_csv(here::here("data-clean/summary-table.csv"))
-wq_si <- read_csv(here::here("data-clean/summary-table-si.csv"))
+library("here")
+wq <- read_csv(here("data-clean/summary-table.csv"))
+wq_si <- read_csv(here("data-clean/summary-table-si.csv"))
 ```
 
 ```{r functions}
@@ -30,14 +31,17 @@ unfill_vec <- function(x, placeholder = "") {
 
 ```
 
-This document has 5 pages, 5 figures, and 1 table.
+This document has X pages, X figures, and X tables.
 
 ```{r summary-wq-si}
 options(knitr.kable.NA = "")
 wq_si %>% 
+  group_by(param) %>% 
+  mutate(unit = unfill_vec(unit)) %>% 
+  ungroup() %>% 
   transmute(
     Parameter = unfill_vec(param),
-    Unit = unfill_vec(str_replace(unit, "ug", "µg")),
+    Unit = str_replace(unit, "ug", "µg"),
     Zone = zone,
     Median = round(med, 1), 
     `Lower quartile` = round(lq, 1),
@@ -51,18 +55,57 @@ wq_si %>%
 knitr::include_graphics(here::here("figures/figure-s1.jpg"))
 ```
 
-```{r figure-s2, fig.cap="**Figure S2.** An example instruction sheet distributed to volunteer residents collecting point-of-use samples from sentinel homes."}
+```{r figure-s2, fig.width=6.5, fig.height=5, fig.cap="**Figure S2.** X-ray diffraction patterns characterizing lead pipe corrosion scale recovered from sites 1--3 (a--c, respectively), by layer (L1--L3/4)."}
 knitr::include_graphics(here::here("figures/figure-s2.png"))
 ```
 
-```{r figure-s3, fig.cap="**Figure S3. (a)** In the full (Zones 1 and 2) model, local multi-year smooths capturing the deviations of each series from the global and location-specific smooths. **(b)** Coagulation pH at the treatment plant supplying Zone 2."}
+```{r figure-s3, fig.cap="**Figure S3.** An example instruction sheet distributed to volunteer residents collecting point-of-use samples from sentinel homes."}
 knitr::include_graphics(here::here("figures/figure-s3.png"))
 ```
 
-```{r figure-s4, fig.cap="**Figure S4.** In the Zone 1 model, local multi-year smooths capturing the deviations of each series from the global and seasonal smooths."}
+```{r figure-s4, fig.cap="**Figure S4. (a)** In the full (Zones 1 and 2) model, local multi-year smooths capturing the deviations of each series from the global and location-specific smooths. **(b)** Coagulation pH at the treatment plant supplying Zone 2."}
 knitr::include_graphics(here::here("figures/figure-s4.png"))
 ```
 
-```{r figure-s5, fig.cap="**Figure S5.** Total aluminum in pipe rack effluent."}
+```{r figure-s5, fig.cap="**Figure S5.** In the Zone 1 model, local multi-year smooths capturing the deviations of each series from the global and seasonal smooths."}
 knitr::include_graphics(here::here("figures/figure-s5.png"))
 ```
+
+```{r figure-s6, fig.cap="**Figure S6.** Total aluminum in pipe rack effluent."}
+knitr::include_graphics(here::here("figures/figure-s6.png"))
+```
+
+# Lead pipe scale analysis
+
+This section describes our procedure for identifying crystalline phases in three lead pipe samples recovered from three sites in Zone 2.
+
+## Scale extraction  
+
+Lead pipe samples were excavated carefully, sealed at either end, and delivered to the laboratory. We cut a 0.2 m long section from each sample with a hacksaw, and we cut each section in half longitudinally to reveal the interior. Pipe interiors were photographed, and corrosion scale was collected with a stainless steel spatula in discrete layers, differentiated by colour, texture, and distance from the pipe wall. Pipe samples yielded distinct outer (L1), middle (L2), and inner (L3--L4) layers. The collected scale was finely ground with a mortar and pestle, which was cleaned with dilute nitric acid and pure water between samples. 
+
+## X-ray diffraction 
+
+We identified crystalline phases in the scale samples using a Rigaku Ultima IV X-ray diffractometer with a copper K$\alpha$ radiation source. The X-ray tube was operated at 35 kV and 30 mA. Scans were acquired over the range 10 - 70&deg; (2$\theta$) with a step size of 0.04&deg; and a scan speed of 0.8 &deg; min^-1^. Diffraction patterns were compared against the standard powder diffraction files listed in Table S2.
+
+```{r table-s2}
+
+tibble::tribble(
+  ~Phase, ~`PDF entry no.`,
+  "Chloropyromorphite", "96-900-4202",
+  "Hydroxypyromorphite", "00-086-0236",
+  "Hydrocerussite", "96-201-2741",
+  "Cerussite", "00-047-1734",
+  "Litharge", "00-085-1739",
+  "Lead", "96-900-8478"
+) %>% 
+  knitr::kable(caption = "**Table S2.** Standard X-ray diffraction patterns and their powder diffraction file entry numbers.")
+
+```
+
+## Results
+
+Corrosion scale in the first pipe was highly crystalline (Figure 3a). The top two scale layers were dominated by a pyromorphite mineral, and the bottom layer contained hydrocerussite and pyromorphite. While the best-matching pyromorphite mineral was chloropyromorphite (Pb~3~(CO~3~)~2~(OH)~2~), standard diffraction patterns for chloro- and hydroxyl- pyromorphites are quite similar, and our match to chloro-pyromorphite is tentative. We identified it based on two key differences: 1) between 29.5 and 30.5 degrees (2$\theta$), chloropyromorphite yields two peaks to hydroxypyromorphite's one, and between 45 and 47 degrees, chloropyromorphite yields three clearly separated peaks to hydroxypyromorphite's two [@lytle_inhibition_2009]. 
+
+Pipes extracted at the other two sites 2--3 had similar corrosion scale to that of site 1 (Figure 3b--c, respectively). A pyromorphite mineral was present, although the match to chloropyromorphite was even less certain here than in the XRD patterns representing site 1. XRD patterns also matched the lead carbonates hydrocerussite (sites 2--3) and cerussite (site 2), as well as the lead oxide litharge (site 3). 
+
+# References

@@ -8,7 +8,7 @@ path_temp <- str_replace(path,"(.+/)(.+)", "\\1_\\2")
 
 read_file(path) %>% 
   # move arabic numberal refs after punctuation:
-  str_replace_all("\\s+(\\[@.*?\\])([.,;:])?", "\\2\\1") %>% 
+  str_replace_all("\\s+(\\[@.*?\\])(\\)?[.,;:])?", "\\2\\1") %>% 
   write_file(path_temp)
 
 rmarkdown::render(path_temp)

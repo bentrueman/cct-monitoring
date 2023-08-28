@@ -1,0 +1,14 @@
+site,date,temp_flushed,unit
+A,2016-06-09,14,degrees C
+A,2016-06-16,14.5,degrees C
+A,2016-06-23,15.2,degrees C
+A,2016-06-29,16,degrees C
+A,2016-07-07,17.5,degrees C
+A,2016-07-14,17.4,degrees C
+A,2016-07-21,19,degrees C
+B,2016-06-09,13,degrees C
+B,2016-06-16,15,degrees C
+B,2016-06-23,15.5,degrees C
+B,2016-06-29,16,degrees C
+B,2016-07-07,17.5,degrees C
+B,2016-07-14,18.8,degrees C
